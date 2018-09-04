@@ -1,6 +1,6 @@
-# Marina Krivcon University Portfolio
+# [Marina Krivcon University Portfolio](https://meao.github.io/university-portfolio/)
 ## Year 2
-### Web 3
+### Web
 ####  Установка Node
 node --version
 ![GitHub Logo](/web/1.png)
