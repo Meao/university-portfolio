@@ -9,12 +9,7 @@ Hello world
 
 
 
-Stage:
-- Other
-- years
 
-1. Other
-2. subjects
 ```markdown
 Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
