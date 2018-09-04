@@ -15,7 +15,7 @@
 
 ## Year 1
 ### Algorithms and complexity analysis
-### Applied information technologies
+### Applied information technologies, HTML, CSS
 ### Computers and peripherals, Assembler
 ### Computer science
 ### English
