@@ -13,20 +13,6 @@
 ### Sports
 
 
-
-
-Stage:
-- Other
-- years
-
-1. Other
-2. subjects
-```markdown
-Syntax highlighted code block
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 ## Year 1
 ### Algorithms and complexity analysis
 ### Applied information technologies
