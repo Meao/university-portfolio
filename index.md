@@ -24,7 +24,7 @@
 ### Information technology in physics, Excel
 ### Information technology in mathematics, Maxima
 ### Mathematics
-### Mathematical Logic and Theory of Algorithms
+### Mathematical Logic
 ### Physics
 ### Probability and Statistics
 ### Philosophy
@@ -33,5 +33,6 @@
 ### Speech culture
 ### Safety
 ### Sports
+### Theory of Algorithms
 
 Return to [editor on GitHub](https://github.com/Meao/university-portfolio/edit/master/index.md). Editor [documentation](https://help.github.com/categories/github-pages-basics/). [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
