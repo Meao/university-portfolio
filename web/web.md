@@ -2,13 +2,13 @@
 ## Year 2
 ### Web
 ####  Установка Node
-node --version
+- node --version
 ![GitHub Logo](/web/1.png)
-Hello world
+- Hello world
 ![GitHub Logo](/web/2.png)
 ####   XML и валидация
-[XML-документ](https://kodaktor.ru/unsafe_edd99)
-[DTD](http://kodaktor.ru/x/unsafe_01076)
+- [XML-документ](https://kodaktor.ru/unsafe_edd99)
+- [DTD](http://kodaktor.ru/x/unsafe_01076)
 
 
 
