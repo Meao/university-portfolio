@@ -2,14 +2,14 @@
 ## Year 2
 ### Programming: Python 3
 ####  sem3-markdown-git-130918
-Заголовок 2 уровня: Year 2.
-Маркированный список с 2-3 профессиональными компетенциями в айти-сфере:
+1. Заголовок 2 уровня: Year 2.
+2. Маркированный список с 2-3 профессиональными компетенциями в айти-сфере:
 - Word, 
 - HTML, 
 - язык программирования Pascal.
-Ссылка на портфолио: [Portfolio](https://meao.github.io/university-portfolio/).
-Мотивирующая вас изображение или фотография.
-![GitHub Logo](/web/1.png)
+3. Ссылка на портфолио: [Portfolio](https://meao.github.io/university-portfolio/).
+4. Мотивирующая вас изображение или фотография.
+![GitHub Logo](/python/1.png)
 ####   
 
 
