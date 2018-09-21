@@ -1,15 +1,15 @@
 # Marina Krivcon University Portfolio
 ## Year 2
 ### [Web-design](https://github.com/Meao/university-portfolio/blob/master/web/web.md)
-
+### [Programming, Python](https://github.com/Meao/university-portfolio/blob/master/python/python.md)
 ### Computational Mathematics 
 ### Data analysis
 ### English
-### Information technologies in solving optimization problems ### Technologies of computer modeling 
+### Information technologies in solving optimization problems 
+### Technologies of computer modeling 
 ### Mathematics
 ### OS 
 ### Physics
-### Programming, Python
 ### Sports
 
 
