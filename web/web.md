@@ -9,6 +9,10 @@
 ####   XML и валидация
 - [XML-документ](https://kodaktor.ru/unsafe_edd99)
 - [DTD](http://kodaktor.ru/x/unsafe_01076)
+- Программная проверка DTD, error due to "EMPTY"
+![GitHub Logo](/web/errormesg.jpg)
+- error resolved
+![GitHub Logo](/web/errorresolved.jpg)
 
 
 
