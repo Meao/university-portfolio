@@ -1,0 +1,5 @@
+<!ELEMENT myportfolio (mycompetencies)>
+<!ELEMENT mycompetencies (competency+)>
+<!ELEMENT competency (#PCDATA)>
+<!ATTLIST competency in (HTML|CSS|HTTP|DOM|CORS|SSL|JS|NODE) "NODE">
+<!ATTLIST competency value (OK| 2learn) "2learn">
