@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<myportfolio>
+ <mycompetencies>
+  <competency in="HTML" value="OK" />
+  <competency in="CSS" value="OK" />
+  <competency in="HTTP" value="2learn" />
+  <competency in="DOM" value="2learn" />
+  <competency in="CORS" value="2learn" />
+  <competency in="SSL" value="2learn" />
+  <competency in="JS" value="2learn" />
+  <competency in="NODE" value="2learn" />
+ </mycompetencies>
+</myportfolio>
