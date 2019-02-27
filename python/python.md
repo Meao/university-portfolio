@@ -10,9 +10,24 @@
 3. Ссылка на портфолио: [Portfolio](https://meao.github.io/university-portfolio/).
 4. Мотивирующая вас изображение или фотография.
 ![GitHub Logo](/python/1.png)
+####   Тема 2. Введение в Python и основы синтаксиса
+Лабораторная работа 2 (13.09) [Гиперссылка Logic Tables](https://repl.it/@MarinaKrvtsn/PointedHurtfulBusiness).
+Самостоятельная работа 2 [Гиперссылка Recursive Factorial](https://repl.it/@MarinaKrvtsn/RecursiveFactorial).
+Лабораторная работа 3 [Гиперссылка Truth Table](https://repl.it/@MarinaKrvtsn/TruthTable16).
+####   Тема 3. Введение в Python и основы синтаксиса. Условные операторы. Циклы. 
+Лабораторная работа 4 [Гиперссылка Truth Tables and Lists](https://repl.it/@MarinaKrvtsn/Template-for-assignment-1-1).
+####   Тема 4. Функции в Python
+репозиторий в Classroom [Гиперссылка Truth Tables and Lists](https://github.com/python-basic/sem3-t2-Meao/tree/master).
+[Гиперссылка Sort](https://repl.it/@MarinaKrvtsn/Sort).
+[Гиперссылка Uniq](https://repl.it/@MarinaKrvtsn/Uniq).
+[Гиперссылка Uniq Func](https://repl.it/@MarinaKrvtsn/Uniq-1).
+[Гиперссылка twoSum](https://repl.it/@MarinaKrvtsn/twoSum).
+[Гиперссылка Truth Tables Funcs and Lists](https://repl.it/@MarinaKrvtsn/WryJauntyCoding).
+[Гиперссылка ZipMap](https://repl.it/@MarinaKrvtsn/ZipMap).
+[Гиперссылка Lists](https://repl.it/@MarinaKrvtsn/UtterJampackedBudgetrange).
+[Гиперссылка Log and Arctan](https://repl.it/@MarinaKrvtsn/elementfunc).
 ####   
-
-
+####   
 
 ```markdown
 Syntax highlighted code block
