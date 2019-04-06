@@ -27,7 +27,10 @@
 [Гиперссылка Lists](https://repl.it/@MarinaKrvtsn/UtterJampackedBudgetrange).
 [Гиперссылка Log and Arctan](https://repl.it/@MarinaKrvtsn/elementfunc).
 ####   
-####   
+
+### Programming: Python 4
+####   Тема 2. Декораторы
+[Гиперссылка timeDeco](https://repl.it/@MarinaKrvtsn/timeDeco).
 
 ```markdown
 Syntax highlighted code block
