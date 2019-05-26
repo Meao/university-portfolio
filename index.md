@@ -6,7 +6,7 @@
 ### Data analysis
 ### English
 ### Information technologies in solving optimization problems 
-### Technologies of computer modeling 
+### [Technologies of computer modeling](https://github.com/Meao/dietapp)
 ### Mathematics
 ### OS 
 ### Physics
