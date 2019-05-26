@@ -34,5 +34,6 @@
 ### Safety
 ### Sports
 ### Theory of Algorithms
+### [IT](https://krivcunmarinait.blogspot.com/?zx=f23332dbbeba5824)
 
 Return to [editor on GitHub](https://github.com/Meao/university-portfolio/edit/master/index.md). Editor [documentation](https://help.github.com/categories/github-pages-basics/). [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
