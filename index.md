@@ -7,7 +7,7 @@
 ### English
 ### Information technologies in solving optimization problems 
 ### [Technologies of computer modeling](https://github.com/Meao/dietapp)
-### Mathematics
+### [Mathematics](https://sites.google.com/site/krivcunmarinait/home/2-курс/2-семестр/компьютерная-алгебра)
 ### OS 
 ### Physics
 ### Sports
