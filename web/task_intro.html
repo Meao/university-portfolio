@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Задание 1 по введению в JS</title><meta charset="utf-8">
+  <script src="/j/out"></script><script>{console = Out;}</script> 
+ </head>
+ <body>
+   <h1>Задание 1 по введению в JS</h1>
+   <h4 id="author" title="GossJS">Марина Кривцун</h4> 
+   <img src="/system.png" alt="система линейных уравнений"> 
+   <script>{
+     const [a1, b1, c1, a2, b2, c2] = [1, 3, 2, 9, 2, 7];
+    
+     // здесь напишите императивный линейный код
+     // который выводит в консоль значения x и y по 
+     // заданным выше переменным
+     // с использованием формул Крамера (т.е. через определители,
+     // (только приравнивания и арифметические операции + - * /)
+     // чтобы решить систему линейных уравнений
+     const d = a1 * b2 - b1 * a2;
+  	 const dx1 = c1 * b2 - b1 * c2;
+  	 const dx2 = a1 * c2 - c1 * a2;
+  	 const x1 = dx1/d;
+  	 const x2 = dx2/d;
+     console.log('Ответ: x1='+x1+' x2='+x2);
+  
+   }</script> 
+ </body>
+</html>
