@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Марина Кривцун</title><meta charset="utf-8">
+ </head>
+ <body>
+   <h4 id="author" title="GossJS">Марина Кривцун</h4>
+<button>Посмотреть результат выполнения задания!</button>  
+<script type="text/javascript">
+   console.clear();
+   // здесь объявите функцию
+  function rgb(a=250,b=250,c=250){
+    return '#'+a.toString(16).padStart(2,'0')+b.toString(16).padStart(2,'0')+c.toString(16).padStart(2,'0');
+  } //La méthode padStart() permet de compléter la chaîne courante avec une chaîne de caractères données afin d'obtenir une chaîne de longueur fixée. Pour atteindre cette longueur, la chaîne complémentaire peut être répétée. La chaîne courante est complétée depuis le début.
+  
+   document.querySelector('button')
+   .addEventListener(
+     'click',
+      e => {
+        // здесь код вызова функции rgb
+        e.target.textContent =  rgb(0,34, 123); // вывод результата 
+      }
+   );
+ 
+</script>
+
+<!-- 
+
+Не забудьте о выполнении требования
+   kodaktor.ru/z7a
+
+Текст задания: https://kodaktor.ru/func_001 и в курсе 33 (вводном) 
+
+-->
+ </body>
+</html>
