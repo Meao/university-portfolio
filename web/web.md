@@ -32,8 +32,8 @@ https://kodaktor.ru/g/cart
 ![GitHub Logo](/web/errorresolved.jpg)
 ####   Задание 1 (введение)
 Формулировка задания и страница для форка: https://kodaktor.ru/task_intro
-![Код](/web/task_intro.html)
-![Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_fb7ee)
+[Код](/web/task_intro.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_fb7ee)
 ####  FUNC_00*
 FUNC-001 ...  FUNC-010
 10 заданий по теме «Функции»
@@ -41,25 +41,34 @@ https://kodaktor.ru/func
 kodaktor.ru/iife
 
 kodaktor.ru/func_001 
-![Код](/web/task_func_1.html)
-![Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_cd81e)
+[Код](/web/task_func_1.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_cd81e)
 (goss_concat)
-![Код](/web/goss_concat.html)
-![Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_cd81e)
+[Код](/web/goss_concat.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_cd81e)
 https://moodle.herzen.spb.ru/mod/forum/view.php?f=7556&group=1902
-![Код](/web/heron.html)
-![Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_f5d96)
+[Код](/web/heron.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_f5d96)
+
 kodaktor.ru/func_002 (this)
-![Код](/web/.html)
-![Работа кода на сайте kodaktor](https://kodaktor.ru/)
+[Код](/web/.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/)
 kodaktor.ru/func_003 (импорт и bind)
+
 kodaktor.ru/func_004 (func_task, compose)
+
 kodaktor.ru/func_005 (каррирование)
+
 kodaktor.ru/func_006 (транспиляция)
+
 kodaktor.ru/func_007 (рекурсия)
+
 kodaktor.ru/func_008 (массив тел, конструктор, spread)
+
 kodaktor.ru/func_009 (замыкание)
+
 kodaktor.ru/func_010 (безымянная рекурсия)
+
 ####  ASYNC-TASKS
 Промисы и for await of
 https://kodaktor.ru/async_tasks
