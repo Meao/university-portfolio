@@ -39,7 +39,8 @@ FUNC-001 ...  FUNC-010
 10 заданий по теме «Функции»
 https://kodaktor.ru/func
 kodaktor.ru/iife
-
+[Код](/web/iife.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=16102018_d0a2b)
 kodaktor.ru/func_001 
 [Код](/web/task_func_1.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_cd81e)
@@ -61,7 +62,7 @@ kodaktor.ru/func_004 (func_task, compose)
 kodaktor.ru/func_005 (каррирование)
 
 kodaktor.ru/func_006 (транспиляция)
-
+![GitHub Logo](/web/flow.png)
 kodaktor.ru/func_007 (рекурсия)
 
 kodaktor.ru/func_008 (массив тел, конструктор, spread)
