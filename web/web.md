@@ -44,12 +44,13 @@ kodaktor.ru/func_001
 [Код](/web/task_func_1.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_cd81e)
 (goss_concat)
-[Код](/web/goss_concat.html)
+[Код concat](/web/goss_concat.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_cd81e)
 https://moodle.herzen.spb.ru/mod/forum/view.php?f=7556&group=1902
-[Код](/web/heron.html)
+[Код heron](/web/heron.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_f5d96)
-
+[Код celsus](/web/celsus.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_a3b4f)
 kodaktor.ru/func_002 (this)
 [Код](/web/.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/)
