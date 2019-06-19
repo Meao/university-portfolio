@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Марина Кривцун</title><meta charset="utf-8">
+ </head>
+ <body>
+   <h4 id="author" title="GossJS">Марина Кривцун</h4><button>Посмотреть результат выполнения задания!</button>  
+<script type="text/javascript">
+   console.clear();
+   // здесь объявите функцию Напишите функции для вычисления температуры в градусах по температуре, данной по шкале Фаренгейта.
+  function celsus(t){
+    let c = (t-32)*5/9;
+  return c;}
+   document.querySelector('button')
+   .addEventListener(
+     'click',
+      e => {
+        // здесь код вызова функции 
+        e.target.textContent = celsus(0); // вывод результата 
+      }
+   );
+ 
+</script>
+
+<!-- 
+
+Не забудьте о выполнении требования
+   kodaktor.ru/z7a
+
+Текст задания: https://kodaktor.ru/func_001 и в курсе 33 (вводном)  https://moodle.herzen.spb.ru/mod/forum/view.php?f=7556&group=1902
+
+-->
+
