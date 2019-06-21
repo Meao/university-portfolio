@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head><script src="/j/out"></script><script src="/socket.io/socket.io.js"></script><!-- <script src="/j/barewebber"></script> -->
+   <title>FUNC-002</title><meta charset="utf-8"><meta name="author" content="Ilya Gosudarev"><link rel="stylesheet" href="/css/board2"><link rel="stylesheet" href="/css/highcss_atom">
+ </head>
+ <body>
+   <h4 id="author" title="GossJS">Марина Кривцун</h4>
+   <script src="/j/dblttl"></script> <script src="/high.js"></script> <script>hljs.initHighlightingOnLoad();</script>
+    <pre class="task">
+Задание на владение this-параметризацией function-функции.  <pre><code>{
+// Дано: функция
+  const mixin = function(){ 
+   return this * this; 
+  };
+// Выполнить: вызвать функцию так, чтобы при вызове от значения 5 выдавался квадрат числа 5, равный 25
+
+  const result = mixin.apply(5)
+
+// здесь ваш ответ 
+Out.log(result);
+
+
+}</code></pre>   <a target="_blank" href="https://www.youtube.com/watch?v=wdYa1uhuG-I">Как создать форк?</a>
+</pre>
+   
+   <script>{Array.from(document.querySelectorAll('pre code'),e=>e.parentNode.appendChild(document.createElement('script')).appendChild(document.createTextNode(e.textContent)));}</script>
+ </body>
+</html>
