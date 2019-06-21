@@ -40,6 +40,11 @@ FUNC-001 ...  FUNC-010
 https://kodaktor.ru/func
 kodaktor.ru/iife
 [Код](/web/iife.html)
+<a href="https://kodaktor.ru/?!=16102018_d0a2b"><button>Работа кода на сайте kodaktor</button></a>
+<button>Работа кода на сайте kodaktor</button>(https://kodaktor.ru/?!=16102018_d0a2b)
+<a href="https://kodaktor.ru/?!=16102018_d0a2b">Работа кода на сайте kodaktor</a>
+<button href="https://kodaktor.ru/?!=16102018_d0a2b">Работа кода на сайте kodaktor</button>
+<button><a href="https://kodaktor.ru/?!=16102018_d0a2b">Работа кода на сайте kodaktor</a></button>
 [Работа кода на сайте kodaktor](https://kodaktor.ru/?!=16102018_d0a2b)
 kodaktor.ru/func_001 
 [Код](/web/task_func_1.html)
