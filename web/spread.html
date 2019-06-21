@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>JavaScript</title><meta charset="utf-8">
+</head>
+ <body>         <h4 id="author" title="GossJS">Марина Кривцун</h4>
+   <h2><a href="#" onClick="createInputs()">Create</a>&nbsp;<input id="input_number" type="number" value="5" min="1" max="9">&nbsp;input fields</h2>
+   
+   <div id="input_container"></div>
+   <div id="commands">
+     <h3><a href="#" onClick="calculate(0)">Подсчет значений первой функции от значений текстовых полей: (only 4 fields supported)</a></h3>
+     <h3><a href="#" onClick="calculate(1)">Подсчет значений второй функции от значений текстовых полей: </a></h3>
+   </div>
+    <script src="/j/out"></script>
+    <script src="/j/dblttl"></script>
+    <script>{ console.clear();
+             
+             function createInputs() {
+               const container = document.getElementById("input_container");
+               const number = document.getElementById("input_number").value;
+               const newInput = '<input type="number" class="fInput" value="1" min="1" max="999">';
+               
+               container.innerHTML = "";
+               for (let i = 0; i < number; i++)
+                 container.innerHTML += newInput;
+             }
+             
+             function calculate(method = 0) { // method 0 or 1
+               const values = Array.from(document.querySelectorAll('.fInput'))
+               .map(x => Number(x.value));
+               
+               fetch('https://3336.kodaktor.ru/funcpsst', {method: 'POST'})
+               .then(x => x.json())
+               .then(({ g }) => {
+                 let f = g.map(x => new Function('...x', x))
+                 Out.log(f[method].apply(null, values));
+               });
+             }
+    }</script>
+ </body>
+</html>
