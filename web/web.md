@@ -53,19 +53,24 @@ https://moodle.herzen.spb.ru/mod/forum/view.php?f=7556&group=1902
 [Код celsus](/web/celsus.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_a3b4f)
 kodaktor.ru/func_002 (this)
-
+[Код](/web/this.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_047fb)
 kodaktor.ru/func_003 (импорт и bind)
-
+[Код](/web/bind.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_94189)
 kodaktor.ru/func_004 (func_task, compose)
-
+[Код](/web/compose.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_3085e)
 kodaktor.ru/func_005 (каррирование)
 [Код](/web/curry.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_6c07f)
 kodaktor.ru/func_006 (транспиляция)
 ![GitHub Logo](/web/flow.png)
+[Код](/web/transpil.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_ecb0e)
 kodaktor.ru/func_007 (рекурсия)
 [Код](/web/recurr.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_e81c2
+[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_157fe)
 kodaktor.ru/func_008 (массив тел, конструктор, spread)
 
 kodaktor.ru/func_009 (замыкание)
