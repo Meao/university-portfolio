@@ -21,11 +21,17 @@
 
 */
   
-
-    const pwr = (a, b) => (b === 1) ? a : mpy(a, pwr(a, b - 1));
-    Out.log(pwr(5, 6)); 
-  /*stack size exceeded node
-  chrome 5 ** 7
+    const pwr = (a, b) => (b === 0) ? 1 : mpy(a, pwr(a, b - 1));
+    Out.log(pwr(3, 2));
+    for (var a = 1; a < 40; a++) {
+    	for (var b = 1; ; b++) try {
+	    	pwr(a, b);
+	    } catch (stack) {
+	    	Out.log(stack + " при a =" + a + " b =" + b);
+	    	break;
+	    }
+    } 
+  /*
   pwr(3,2) pwr вызывает mpy 1 раз, 
   mpy вызывает add 2 раза,
   add вызывает sec 9 раз
