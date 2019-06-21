@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head><script src="/j/out"></script><script src="/socket.io/socket.io.js"></script><!-- <script src="/j/barewebber"></script> -->
+   <title>FUNC-003</title><meta charset="utf-8"><meta name="author" content="Ilya Gosudarev"><link rel="stylesheet" href="/css/board2"><link rel="stylesheet" href="/css/highcss_atom">
+ </head>
+ <body>
+   <h4 id="author" title="GossJS">Марина Кривцун</h4>
+   <script src="/j/dblttl"></script> <script src="/high.js"></script> <script>hljs.initHighlightingOnLoad();</script>
+    <pre class="task">
+Задание на импорт функции из модуля.  <pre><code>
+// Дано: функция, экспортированная по адресу 
+// kodaktor.ru/j/func_003_export
+
+// Выполнить: 
+// импортировать её сюда
+// с помощью метода bind привязать к её аргументу значение 5
+// и вызвать для получения результата 25
+
+// здесь ваш ответ 
+
+import qv from 'https://kodaktor.ru/j/func_003_export'
+const qv5 = qv.bind(null, 5);
+const result = qv5()
+Out.log(result);
+
+</code></pre>   <a target="_blank" href="https://www.youtube.com/watch?v=wdYa1uhuG-I">Как создать форк?</a>
+</pre>
+   
+  <script>{Array.from(document.querySelectorAll('pre code'),e=>{ const s = e.parentNode.appendChild(document.createElement('script')); s.setAttribute('type', 'module'); s.appendChild(document.createTextNode(e.textContent)) });}</script>
+ </body>
+</html>
