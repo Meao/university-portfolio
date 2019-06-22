@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Drag and drop by Krivcun Marina ИВТ 2</title><meta charset="utf-8">
+    <style>
+    #cart {background: white; width: 91%; height: 300px; border: 4px silver dashed; border-radius: 10px; padding: 10px; font-size: 10px}
+    #cart p {font-size: 20px}
+    #choice {background: white; width: 91%; height: 200px; border: 4px silver solid; border-radius: 10px; padding: 10px; font-size: 20px}
+    .item {font-size: 10px}
+    #t1 {background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2a/Proplyd_181-825_in_the_Orion_Nebula_%28captured_by_the_Hubble_Space_Telescope%29.jpg); width: 70px; height: 70px; border: 4px silver solid; border-radius: 10px; margin: 2px; padding: 5px; color: white;}
+    #t2 {background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a5/Proplyd_473-245_in_the_Orion_Nebula_%28captured_by_the_Hubble_Space_Telescope%29.jpg); width: 70px; height: 70px; border: 4px silver solid; border-radius: 10px; margin: 2px; padding: 5px; color: white;}
+    #t3 {background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b5/Proplyd_159-338_in_the_Orion_Nebula_%28captured_by_the_Hubble_Space_Telescope%29.jpg); width: 70px; height: 70px; border: 4px silver solid; border-radius: 10px; margin: 2px; padding: 5px; color: white;}
+    div {
+  float: left;}
+    </style>
+  </head>
+  <body>
+    <h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <div id="choice"><p>Please choose an item </p>
+      <div class="item" id="t1" draggable="true" cost="1000">473-245: 1000</div>
+      <div class="item" id="t2" draggable="true" cost="500">159-338: 500</div>
+      <div class="item" id="t3" draggable="true" cost="800">181-825: 800</div>
+    </div>
+    <div id="cart"><p>Please drop the chosen item</p>
+      <p>Sum: <span id="cartSum">0</span></p>
+      <p id="cartMessage"></p>
+    </div>
+    <script>{  
+      let maxSum = 2000;
+      
+      const el = document.querySelector(`div`), cart = document.querySelector(`#cart`);
+
+      el.addEventListener(`dragstart`, ev =>  ev.dataTransfer.setData('text/plain', ev.target.id));   
+      cart.addEventListener(`dragover`, ev => ev.preventDefault()); // позволить продолжить бросание  
+      cart.addEventListener('drop', (ev, res = document.getElementById(ev.dataTransfer.getData('text/plain'))) => {
+        
+        var sum = document.querySelector('#cartSum');
+        var moneySpent = Number(sum.textContent);
+        var itemCost = Number(res.getAttribute('cost'));
+		var newSum = moneySpent + itemCost;
+        
+        if (newSum > maxSum) {
+        	document.querySelector("#cartMessage").textContent = "Кредит превышен!";
+          	ev.preventDefault();
+        }
+        else {
+            let newItem = document.createElement('div');
+            newItem.id = res.id;
+            newItem.textContent = res.textContent;
+			sum.textContent = newSum;
+        	document.querySelector('#cart').appendChild(newItem);
+        }
+      });
+
+    }</script> 
+ </body>
+</html>
