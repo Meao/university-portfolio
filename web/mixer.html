@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #FFFFFF;
+      }
+
+      #rect {
+        margin: auto;
+        width: 400px;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid black;
+        font-size: 20px;
+        font-family: sans-serif;
+      }
+
+      input[type="number"] {
+        width: 50px;
+      }
+
+      input[type="range"] {
+        width: 150px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <div id="rect">
+      <p>Input three RGB colors:</p>
+      <p>
+        <input type="number" value="255">
+        <input type="range" min="0" max="255" value="255"><br>
+        <input type="number" value="255">
+        <input type="range" min="0" max="255" value="255"><br>
+        <input type="number" value="255">
+        <input type="range" min="0" max="255" value="255"><br>
+      </p>
+    </div>
+    <script type="text/javascript">{
+      const numbers = document.querySelectorAll("input[type='number']");
+      const ranges = document.querySelectorAll("input[type='range']");
+
+      function updateFromNumber() {
+        let red = numbers[0].value;   ranges[0].value = red;
+        let green = numbers[1].value; ranges[1].value = green;
+        let blue = numbers[2].value;  ranges[2].value = blue;
+        document.body.style.backgroundColor = "rgb(" + [red, green, blue].join() + ")";
+      }
+
+      function updateFromRange() {
+        let red = ranges[0].value;   numbers[0].value = red;
+        let green = ranges[1].value; numbers[1].value = green;
+        let blue = ranges[2].value;  numbers[2].value = blue;
+        document.body.style.backgroundColor = "rgb(" + [red, green, blue].join() + ")";
+      }
+
+      numbers.forEach(number => number.addEventListener('change', updateFromNumber));
+      ranges.forEach(range => range.addEventListener('change', updateFromRange));
+
+}</script>
+  </body>
+</html>
