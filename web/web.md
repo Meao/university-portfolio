@@ -33,72 +33,98 @@ https://kodaktor.ru/g/cart
 ####   Задание 1 (введение)
 Формулировка задания и страница для форка: https://kodaktor.ru/task_intro
 [Код](/web/task_intro.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_fb7ee)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/task_fb7ee)
 ####  FUNC_00*
 FUNC-001 ...  FUNC-010
 10 заданий по теме «Функции»
 https://kodaktor.ru/func
 kodaktor.ru/iife
-[Код](/web/iife.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=16102018_d0a2b)
+[Код iife](/web/iife.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/16102018_d0a2b)
 kodaktor.ru/func_001 
 [Код](/web/task_func_1.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_cd81e)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_cd81e)
 (goss_concat)
 [Код concat](/web/goss_concat.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_cd81e)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_cd81e)
 https://moodle.herzen.spb.ru/mod/forum/view.php?f=7556&group=1902
 [Код heron](/web/heron.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_f5d96)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_f5d96)
 [Код celsus](/web/celsus.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=task_func_a3b4f)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_a3b4f)
 kodaktor.ru/func_002 (this)
-[Код](/web/this.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_047fb)
+[Код this](/web/this.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_047fb)
 kodaktor.ru/func_003 (импорт и bind)
-[Код](/web/bind.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_94189)
+[Код bind](/web/bind.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_94189)
 kodaktor.ru/func_004 (func_task, compose)
-[Код](/web/compose.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_3085e)
+[Код compose](/web/compose.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_3085e)
 kodaktor.ru/func_005 (каррирование)
-[Код](/web/curry.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_6c07f)
+[Код curry](/web/curry.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_6c07f)
 kodaktor.ru/func_006 (транспиляция)
 ![GitHub Logo](/web/flow.png)
 [Код](/web/transpil.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_ecb0e)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_ecb0e)
 kodaktor.ru/func_007 (рекурсия)
-[Код](/web/recurr.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_157fe)
+[Код recurr](/web/recurr.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_157fe)
 kodaktor.ru/func_008 (массив тел, конструктор, spread)
-[Код](/web/spread.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_4fc00)
+[Код spread](/web/spread.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_4fc00)
+https://kodaktor.ru/g/18102018 Строки и массивы
+[Код strings](/web/strings.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/16102018_e83ae)
+https://kodaktor.ru/25102018 args
+[Код strings](/web/args.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/16102018_18386)
 kodaktor.ru/func_009 (замыкание)
 [Код](/web/za.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/?!=func_b7d66)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_b7d66)
 kodaktor.ru/func_010 (безымянная рекурсия)
-
+[Код noname](/web/noname.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_0cc6f)
 ####  ASYNC-TASKS
 Промисы и for await of
 https://kodaktor.ru/async_tasks
 
+https://kodaktor.ru/30102018
+[Код destruct](/web/destruct.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/30102018_854d4)
+[Код json fetch](/web/jsonfetch.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/aa59779_285af)
+[Код await](/web/await.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/08112018_ad33f)
 ####  BABL_002
 Транспиляция: bind
 https://kodaktor.ru/babl_002
-
+![GitHub Logo](/web/flow.png)
+[Код bind2](/web/bind2.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/bind02032018_09264)
 ####  EVNT_002
 События: кастомные события, коммуникация компонентов
 https://kodaktor.ru/evnt_002
-
+[Код EVNT](/web/EVNT.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/evnt_8fbce)
 ####  FRMW_00*
 задания по react, vue, material design
-
 https://kodaktor.ru/g/state – обзор концепций, связанных с состоянием и хранилищем
-
 https://kodaktor.ru/frmw_001 – введение и двустороннее связывание на React
+
+[Код render](/web/render.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/react_state_9afea)
+[Код Redux](/web/Redux.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/react_simple_694be)
 https://kodaktor.ru/frmw_002 – введение во Vue
-https://kodaktor.ru/frmw_003... frmw_005
+[Код Vue](/web/Vue.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/vue_starter_0fb59)
+https://kodaktor.ru/frmw_003
+
+https://kodaktor.ru/frmw_004
+
+https://kodaktor.ru/frmw_005
 https://kodaktor.ru/frmw_006 – введение в ELM
 https://kodaktor.ru/frmw_007 – Material UI
 
