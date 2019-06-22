@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Bind by Krivcun Marina IVT 2</title> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.0.0/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.0.0/umd/react-dom.production.min.js"></script>
+  </head>
+  <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <div class="cont"></div><script type="text/babel">
+    const [{ Component: C }, {render: r}] = [React, ReactDOM];
+    //C=React.Component; r=ReactDOM.render
+    class Stater2 extends C {
+      render() {
+        return (
+          <input type="text"
+                 value={this.props.v}
+                 onChange={this.props.onChange}/>
+        )
+      }
+    } 
+    class Stater  extends C {
+      constructor() {
+        super();
+        this.state = {v: 'I like to move it, move it...'}; 
+      }
+      handleChange(ev) {
+        this.setState({ v: ev.target.value }); 
+      }
+      render() {
+        return (
+          <div>
+            <Stater2 v={this.state.v} onChange={(ev) => this.handleChange(ev)} />
+            <Stater2 v={this.state.v} onChange={this.handleChange.bind(this)} />
+            <Stater2 v={this.state.v} onChange={this.handleChange.bind(this)} />
+          </div>
+        ); 
+      }
+    }   
+
+    r( 
+      <Stater  />,
+      document.querySelector('.cont')
+    );
+
+    </script>
+
+
+    <hr>
+
+  </body>
+</html>
+<!-- https://kodaktor.ru/vue_double_bind -->
