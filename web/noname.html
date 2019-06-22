@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+ <head><script src="/j/out"></script><script src="/socket.io/socket.io.js"></script><!-- <script src="/j/barewebber"></script> -->
+   <title> FUNC_010 – безымянная рекурсия</title><meta charset="utf-8"><meta name="author" content="Ilya Gosudarev"><link rel="stylesheet" href="/css/board2"><link rel="stylesheet" href="/css/highcss_atom">
+ </head>
+ <body>
+   <h4 id="author" title="GossJS">Марина Кривцун</h4>
+   <script src="/j/dblttl"></script> <script src="/high.js"></script> <script>hljs.initHighlightingOnLoad();</script>
+    <pre class="task">
+  При рекурсии функция обращается сама к себе по имени.
+    </pre>  
+    <pre><code>
+ было:  const f = x => x <= 1 ? 1 : x * f(x - 1);
+ стало:            x => x <= 1 ? 1 : x * f(x - 1)
+ Как такая функция может вызвать сама себя? У неё нет имени.
+    </code></pre>
+   
+<pre class="solution">
+    <code>
+Out.log(
+  (
+((f) => f(f))//This function receives the bottom one as argument f and calls it with itself
+((f) => //This entire function is passed as argument to the function above
+(x) => //function which is the one that satisfies the outermost scope and therefore receives the input as the x argument
+x <= 1 ? 1 : x * f(f)(x-1))
+)(4)//The input is passed to the outermost scope
+);
+    </code>
+  </pre>
+        
+   <script>{
+  const codes = document.querySelectorAll('pre.solution code');
+  Array.from(codes, e=> {
+      e.parentNode.appendChild( document.createElement('script') ).appendChild(document.createTextNode(e.textContent));
+  })
+}</script>
+    
+ </body>
+</html>
