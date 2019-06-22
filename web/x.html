@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Основа для Redux by Marina Krivcon IVT2</title>
+    <script src="https://unpkg.com/babel-standalone@7.0.0-beta.3/babel.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.8.6/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.6/umd/react-dom.production.min.js"></script>
+ </head>
+ <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <div class="cont"></div>
+    <script type="text/babel"  data-plugins="transform-function-bind">
+      const [{render: r}, {Component: C}] = [ReactDOM, React];
+      class Tasker extends C {
+        constructor() { //usually it's constructor(props) and super(props)
+          super();
+          this.state = { list: [], text: 'пустое' };
+        }
+        async componentDidMount() {
+          const { list } = await fetch(this.props.url).then(x => x.json()); //only need it because of the url inside r (to add initial 2 elements from outside of the page)
+          this.setState({ list });
+        }
+        addTask() {
+          const list = [...this.state.list, this.state.text]; //... expand operator to add more and more objects to the [](array)
+          // const a = [1, 2, 3]
+          // const b = [a, 4] // = [[1, 2, 3], 4]
+          // const c = [...a, 4] // = [1, 2, 3, 4]
+          // const d = a.concat([4]) // not sure but should be the same [1, 2, 3, 4]
+          this.setState(() => ({ list }));
+        }
+        removeTask(id) {
+          let list = [...this.state.list];
+          list = list.slice(0, id).concat(list.slice(id+1, list.length));
+          // let a = [1, 2, 3, 4]
+          // let id = 2 // a[id] == 3
+          // a.slice(0, id) // [1, 2]
+          // a.slice(id+1, a.length) // [4]
+          this.setState({list: list}); //first list is this.state.list, second is the variable we created above
+        }
+        s({ target: t }) {
+          this.setState(() => ({text: t.value}))
+        }
+        render() {
+          return (
+            <div>
+              <ol>{this.state.list.map((v, i) => { //i is the key of the array
+              return (
+              	<li key={i}> 
+                	{v}&nbsp;
+              		<a href="#" onClick={() => this.removeTask(i)}>[x]</a>
+   				</li>
+             )})}</ol>
+      <input value={this.state.text} onChange={::this.s} />
+                <button onClick={::this.addTask}>{'Добавить'}</button>
+      </div>
+          );
+        }
+      }
+      
+      r(
+        <div><Tasker url="https://kodaktor.ru/j/tasklist" /></div>,
+        document.querySelector('.cont')
+      );
+
+    </script>
+    
+     
+    <hr>
+    
+ </body>
+</html>
+<!-- https://github.com/GossJS/reactDemo2018/tree/simple_todo
+
+https://kodaktor.ru/react_simple_tasker2 - с ref
+
+https://kodaktor.ru/customevent_2 - реализация идеи с компонентами (http://kodaktor.ru/todolist)
+
+https://kodaktor.ru/vue_simple_tasker – с LocalStorage
+
+-->
