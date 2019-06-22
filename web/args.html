@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Кривцун Марина, JavaScript</title><meta charset="utf-8">
+ </head>
+ <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <script src="/j/out"></script>
+    <script src="/j/dblttl"></script>
+    <script>{ console.clear();
+      
+
+         Out.log('25.10.2018');
+         const fu = (...args) => args.reduce((a, b) => a + b, 0);
+         Out.log(fu(4, 6, 0, 5, 10, 3)); 
+             
+         const arobj =  [{'id':'73','foo':'p'},{'id':'45','foo':'l'},
+{'id':'v','foo':'b'},{'id':'c','foo':'d'}];
+            // const find = Object.keys(arobj).filter(x=>x==="a");
+           //  Out.log(arobj.find(x => x.id === '45').foo);
+            // Out.log(arobj.findIndex(x => x.id === '45'));
+         const nov = arobj.filter(x => x.id === '45').map(x => x.foo);
+         Out.log(nov);
+             
+       	
+             
+         //    var button = document.querySelector('form[name="myform"] > button');
+// button.addEventListener(function() {  document.querySelector("form[name="myform"]").submit(); });
+          //   var url = '@Url.Action("Action","Controller")' + "/" + yourjavascriptvariable;
+             
+             Array.from(new FormData(formElement), e => e.map(encodeURIComponent).join('=')).join('&');
+        
+        $(document).ready(function(){
+   		$('<form action="3336.kodaktor.ru/krivtson?result"></form>').appendTo('body').submit();
+        });
+    }</script>
+   
+   <form name="myform" action="handle-data.php" method="post">
+  <label for="query">Input:</label>
+  <input type="text" name="query" id="query" />
+  <button>Do</button>
+</form>
+   
+             <form action="json.txt">
+            <input type="text" name="obtoserialise[]" value="{ status: 'student', year: 2018 }">
+	        </form>
+ </body>
+</html>
