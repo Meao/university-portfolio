@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>JavaScript</title><meta charset="utf-8">
+ </head>
+ <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <script src="/j/out"></script><script src="/j/clicker"></script>
+    <script src="/j/dblttl"></script>
+    <script>{ console.clear();
+      new Clicker(() => {
+        fetch('https://3336.kodaktor.ru/json') 
+        .then(x => x.json())
+        .then(x => {
+          Out.log(JSON.stringify(x.obj1.rs[2].x[6]));
+          const {obj1:{rs:{2:{x: {6: fu}}}}} = x;
+          Out.log(fu);
+        });
+      });
+  
+    }</script>
+ </body>
+</html>
