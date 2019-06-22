@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>JavaScript</title><meta charset="utf-8">
+ </head>
+ <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <script src="/j/out"></script>
+    <script src="/j/dblttl"></script>
+    <script src="/j/clicker"></script>
+   <a target="_blank" href="/fetchref">справка по fetch</a><br/>
+    <script>{ console.clear();
+      new Clicker(async () => {
+        // используйте fetch и async/await
+        // для обращения к 3336.kodaktor.ru/jsonpost
+        // и извлечения значения 'f'
+        const URL = 'https://3336.kodaktor.ru/jsonpost';
+        const res1 = await fetch(URL, {method: 'post'});
+        const res2 = await res1.json();
+        Out.log(res2.obj1.rs[2].x[6]);   
+             
+             
+              /*
+        const response = await fetch('https://3336.kodaktor.ru/jsonpost');
+const json = await response.json();
+Out.log(json);           
+                   
+                    
+       const fet = f => fetch('https://3336.kodaktor.ru/jsonpost');        
+       
+   //    await fet(Out.log(JSON.stringify(x.obj1.rs[2].x[6]));
+   //       const {obj1:{rs:{2:{x: {6: fu}}}}} = x;
+   //       Out.log(fu););
+    //    await fet(Out.log(JSON.stringify(this.obj1.rs[2].x[6])));  
+    //    await fet(Out.log(JSON.stringify(this.obj1:{rs:{2:{x: {6: fu}}}})));          
+       await fet(Out.log(JSON.stringify(this)));            
+           */        
+       
+ /*
+       const U = 'https://3336.kodaktor.ru/jsonpost';      
+       const fe = f => fetch((res, rej) => {
+ let result = {};
+ setTimeout(() =>
+ undefined === result.date2 ?
+ rej('Таймаут, сорри!') :
+ res('Результат: ' + JSON.stringify(this.obj1.rs[2].x[6])), 5000);
+ require('https')
+ .get(U+time, (r, b = '') =>
+ { r.on('data', d => b += d); r.on('end', () => result = JSON.stringify(this.obj1.rs[2].x[6])); });
+});            
+      */             
+                   
+       /*
+        fetch('https://3336.kodaktor.ru/json') 
+        .then(x => x.json())
+        .then(x => {
+          Out.log(JSON.stringify(x.obj1.rs[2].x[6]));
+          const {obj1:{rs:{2:{x: {6: fu}}}}} = x;
+          Out.log(fu);
+        });            
+                   
+           */        
+            /*        
+        const URL = 'https://kodaktor.ru/sleep?n=';
+const checkTime = time => new Promise((res, rej) => {
+ let result = {};
+ setTimeout(() =>
+ undefined === result.date2 ?
+ rej('Таймаут, сорри!') :
+ res('Результат: ' + JSON.stringify(result)), 5000);
+ require('https')
+ .get(URL+time, (r, b = '') =>
+ { r.on('data', d => b += d); r.on('end', () => result = JSON.parse(b)); });
+});
+checkTime(4).then(x => console.log(x + '✓')).catch(e => console.log(e + '!') ||
+process.exit(0));
+checkTime(16).then(x => console.log(x + '✓')).catch(e => console.log(e + '!') ||
+process.exit(0));           
+          */         
+                   
+         /*          
+       const {readFile: r} = require('fs');
+r('./package.json', (e, x) => {
+if (e) return console.table(e);
+console.log(String(x));
+});            
+                   
+                   
+   const pr = p(r);
+void (async () => console.log(String(await pr('./package.json'))))();                
+             
+             
+             
+             
+             void (async () => {
+try {
+console.log(String(await pr('./package.json')));
+} catch (e) {
+console.table(e); 
+}
+})();
+                   
+     */              
+      });  
+    }</script>
+ </body>
+</html>
