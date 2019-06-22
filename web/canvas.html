@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+ <head><title>Krifcun Marina IVT2</title>
+ </head>
+ <body>
+   <h4 id="author" title="GossJS">Марина Кривцун</h4>
+   <script src="/j/canvas_0b"></script>
+    <script>{
+    function makeCanvas(x, y) {
+      var canvas = document.createElement('canvas'),
+          ctx = canvas.getContext('2d');
+      canvas.setAttribute('width', x);
+      canvas.setAttribute('height', y);
+      return { canvas, ctx };
+    }
+  	console.clear();
+    const { canvas, ctx } = makeCanvas(140, 130);
+    
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = 'green';
+    ctx.strokeRect(1, 2, canvas.width-2, canvas.height-2);
+
+function rads(x){return Math.PI*x/180}
+
+
+		//поворот системы координат вокруг центра
+		mx = canvas.width/2;
+		my = canvas.height/2;
+
+  ctx.setTransform(Math.cos(90*Math.PI/180), 
+                    -Math.sin(90*Math.PI/180), 
+                    Math.sin(90*Math.PI/180), 
+                    Math.cos(90*Math.PI/180), 
+                    0, my*2+7);
+  //<h2>Поворот</h2>
+  // <h3>Вокруг центра объекта на N*Math.PI/180 градусов против ч/с</h3>
+  // <h3>x' = cos(N)*x - sin(N)*y <br>y' = sin(N)*x + cos(N)*y<br>matrix(Math.cos(N*Math.PI/180), -Math.sin(N*Math.PI/180), Math.sin(N*Math.PI/180), Math.cos(N*Math.PI/180), 0, 0)</h3>  
+    const s = 10;
+    const w = 25;
+    const h = 70;
+    const x0 = 20;
+    const y0 = 20;
+    const m = 30;
+    ctx.beginPath();
+
+    ctx.moveTo(x0, y0); //K
+    ctx.lineTo(x0, y0+h);
+    ctx.moveTo(x0, y0+m);
+    ctx.lineTo(x0+w, y0);
+    ctx.moveTo(x0, y0+m);
+    ctx.lineTo(x0+w, y0+h);
+    ctx.strokeRect(x0+w+s, y0+h, 1,1); //.
+    ctx.moveTo(x0+w+2*s, y0+h); //M
+    ctx.lineTo(x0+w+2*s+w, y0+m);
+    ctx.moveTo(x0+w+2*s+w, y0);
+    ctx.lineTo(x0+w+2*s+w, y0+h);
+    ctx.moveTo(x0+w+2*s+w, y0+h);
+    ctx.lineTo(x0+w+2*s+2*w, y0+m);
+    ctx.moveTo(x0+w+2*s+2*w, y0);
+    ctx.lineTo(x0+w+2*s+2*w, y0+h);
+    ctx.strokeRect(x0+w+2*s+2*w+s, y0+h, 1,1); //.
+    ctx.stroke();
+
+    ctx.closePath();
+
+    //кривая
+    ctx.beginPath();
+    ctx.strokeStyle = 'red';
+ctx.arc(mx, my, 60, rads(50), rads(130), false); //  центр(mx, my), радиус 60, по час.стрелке от 50 до 180-50 градусов ctx.arc(x, y, rayon, angleDépart, angleFin, sensAntiHoraire);
+  ctx.bezierCurveTo(x0+(w+s+2*w)/2,y0+h+s*5,
+                     x0+(w+2*s+2*w+s)/2,y0+h+s*4,
+                     x0+w+2*s+2*w,y0+h+s*2);
+  //Control point 1
+  //Control point 2
+  //End point
+    ctx.stroke();
+    ctx.closePath();
+  const pattern = ctx.createPattern(canvas, 'repeat');
+  
+       // создание реального канваса      
+       const canvas2 = document.createElement('canvas'),  ctx2 = canvas2.getContext('2d');
+       canvas2.setAttribute('width','500'); canvas2.setAttribute('height','500');      
+       // назначение паттерна стилю заливки
+       ctx2.fillStyle = pattern;
+       ctx2.fillRect(  0,0, canvas2.width, canvas2.height);
+                
+       // вставка реального канваса внутрь тела веб-страницы       
+       document.body.appendChild(canvas2);
+  }
+   </script>
+
+ </body>
+</html>
+
