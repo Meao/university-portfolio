@@ -122,24 +122,24 @@ https://kodaktor.ru/frmw_002 – введение во Vue
 [Работа кода на сайте kodaktor](https://kodaktor.ru/vue_starter_0fb59)
 https://kodaktor.ru/frmw_003
 
+[Код x](/web/x.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/react_simple_d0ca1)
 https://kodaktor.ru/frmw_004
 
 https://kodaktor.ru/frmw_005
+
 https://kodaktor.ru/frmw_006 – введение в ELM
+
 https://kodaktor.ru/frmw_007 – Material UI
 
 https://kodaktor.ru/redux_intro – введение в Redux
 https://kodaktor.ru/effector_intro – введение в Effector (⚡️framework-agnostic)
-
 связующее звено с материалом следующего семестра – клиентский роутер
-
 ####  YOU
 Проект YOU
 https://kodaktor.ru/you
 
-
 ### Компьютерный практикум
-
 Часть заданий проверяется (или дополнительно проверяется) с помощью средств автоматизированной проверки, отсылающей запросы к веб-сценариям. Веб- сценарии должны быть размещены на ресурсе, допускающем обращение через Интернет (онлайн-редактор типа Кодактор.ру или codepen.io):
 https://kodaktor.ru/g/z7a
 Выполнение заданий самого простого вида в Кодактор.ру: https://kodaktor.ru/dzjs
