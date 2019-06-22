@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Vue Browser Starter Component</title>
+   <script src="//vuejs.org/js/vue.js"></script>
+ </head>
+ <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <h1>Vue Component</h1>
+   <div id="cont">
+     <input type="text" id="in1" v-model="message">
+     <input type="text" id="in2" v-model="message">
+   </div>
+    <script>
+      new Vue({ 
+        el: '#cont',
+        data: { message: "I like to move it, move it..." },
+      });
+    </script>
+ </body>
+</html>
+<!-- https://github.com/webpackstudent/vue_compo_counter -->
