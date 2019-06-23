@@ -503,6 +503,8 @@ yarn start
 [Код vue mixer](/web/vuemixer.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/fd31784_3b2f7)
 2. Разработка проекта «Интерфейс корзины покупателя»
+[Код cart](/web/cart.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/custom_c8fb1)
 3. Разработка приложения с реализацией перетаскивания и анимации.
 [Код dragdrop](/web/dragdrop.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/dragdrop_6f945)
