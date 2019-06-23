@@ -381,6 +381,19 @@ PHP с проверкой корректности работы сессий
 
 ####  4
 1. Развёртывание веб-ресурса на платформе Heroku
+![GitHub Logo](/web/h1nvmyarnphp.png)
+![GitHub Logo](/web/h2php.png)
+![GitHub Logo](/web/h3phpcomposer.png)
+![GitHub Logo](/web/h4composer.png)
+![GitHub Logo](/web/h5heroku.png)
+![GitHub Logo](/web/h6herokulogin.png)
+![GitHub Logo](/web/h7git.png)
+![GitHub Logo](/web/h8create.png)
+![GitHub Logo](/web/h9extgd.png)
+![GitHub Logo](/web/h10composericommit.png)
+![GitHub Logo](/web/h11open.png)
+[Код histogram](/web/histogram.php)
+[Работа кода на сайте herokuapp](https://safe-stream-68724.herokuapp.com)
 2. Развёртывание веб-ресурса на платформе Digital Ocean
 3. Развёртывание веб-ресурса на платформе vscale.io с использованием Docker
 
