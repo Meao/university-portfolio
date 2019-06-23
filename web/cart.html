@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Интернет магазин by Krifcun Marina IVT2-3</title><meta charset="utf-8">
+		<style>
+			.fake-img {
+				background: white; 
+				border-style: outset;
+				border-width: 1px;
+				border-color: grey;  
+				border-radius: 15px;
+				padding: 20px;
+			}
+			.writer { cursor: pointer; }
+			#goods {width: 50%; background: white; border-style: groove; border-width: 5px;}
+			#reader {width: 50%; border-style: groove; border-width: 5px; background: white;} 
+			#overflow {color: red}
+			body {display: flex}
+		</style>
+	</head>
+	<body>
+    <h4 id="author" title="GossJS">Марина Кривцун</h4> 
+		<div id="goods" title="♥️">
+			<h4>Товары</h4>
+			<p class='item'>
+				<br/><span class="fake-img">Calm</span>
+				<br/><br/>
+				Название: Calm <br/>
+				Цена: <span class="item_price">800</span> <br/>
+				<button class="writer" price="800" title="Calm">Купить</button>
+			</p>
+   
+			<p class='item'>
+				<br/><span class="fake-img">Food</span>
+				<br/><br/>
+				Название: Food <br/>
+				Цена: <span class="item_price">1500</span>
+				<br/><button class="writer" price="1500" title="Food">Купить</button>
+			</p>
+		</div>
+   
+<!-- 
+  <p><br/><span class="fake-img">Love</span><br/><br/>Название: usbdrive <br/>Цена:80 <br/><button class="writer" title="80">Купить</button></p>
+   <div class="item_box"><h3 class="item_title">Calm</h3><p>Цена: <span class="item_price">20</span>$</p><button class="add_item" data-id="7">В корзину</button></div>
+<div class="item_box"><h3 class="item_title">Food</h3><p>Цена: <span class="item_price">100</span>$</p><button class="add_item" data-id="2">В корзину</button>
+</div><div class="item_box"><h3 class="item_title">Hell</h3><p>Цена: <span class="item_price">1000</span>$</p><button class="add_item" data-id="5">В корзину</button></div> 
+  
+  -->
+	
+		<div id="reader" title="⭐️">
+			<h4>Корзина</h4>
+			<p><span id="overflow"></span></p>
+			<p>Сумма: <span id="sum">0</span> из 5000$</p>
+			<ul id="cart_content"></ul>
+		</div>
+		
+		<div id="debug">
+			
+		</div>
+   
+    <script>{
+      document
+      .querySelector('#sum')
+      .addEventListener('addMe', e => {
+				
+				var price = e.detail.cost
+				var sum = Number(e.target.textContent) + Number(price);
+				
+				if (sum > 5000)
+					document.querySelector('.writer').dispatchEvent(
+						new CustomEvent('noteback'))
+				else {
+					e.target.textContent = sum;
+					let newCartItem = document.createElement('li');
+					newCartItem.textContent = e.detail.name;
+					document.querySelector('#cart_content').appendChild(newCartItem)
+				}
+			}); 
+   /*   document
+      .querySelector('#reader')
+      .addEventListener('addMe', e => {
+				e.target.textContent +=  e.target.title;
+				document.querySelector('.writer').dispatchEvent(new CustomEvent('noteback')) 
+			});*/
+			
+			[...document.querySelectorAll('.writer')].forEach( e => {
+				e.addEventListener('click', () => document.querySelector('#sum')
+				.dispatchEvent(new CustomEvent('addMe', 
+					{detail:
+						{cost: e.getAttribute("price"),
+						 name: e.title}
+					})))
+				e.addEventListener('noteback', () =>
+					document.querySelector('#overflow').textContent = 'Ваш код не расчитан на сумму больше 5000'
+				)
+			})
+			
+			/*
+      document
+      .querySelector('.writer')
+      .addEventListener('click',() => document.querySelector('#sum').dispatchEvent(new CustomEvent('note')));
+  	  document
+      .querySelector('.writer')
+      .addEventListener('noteback', e => {
+					e.target.textContent = 'Ваш код не расчитан на сумму больше 5000'
+			});
+
+ var d = document,
+    itemBox = d.querySelectorAll('.item_box'), // блок каждого товара
+		cartCont = d.getElementById('cart_content'); // блок вывода данных корзины
+	var cartData =  {}, //  создаём новый объект
+              document
+      .querySelector('#reader')
+      .addEventListener('note', 
+  // Добавляем товар в корзину
+function addToCart(e){
+	parentBox = this.parentNode, // родительский элемент кнопки &quot;В корзину&quot;
+	itemId = this.getAttribute('data-id'), // ID товара
+	itemTitle = parentBox.querySelector('.item_title').innerHTML, // название товара
+	itemPrice = parentBox.querySelector('.item_price').innerHTML; // стоимость товара
+  
+	if(cartData.hasOwnProperty(itemId)){ // если такой товар уже в корзине, то добавляем +1 к его количеству
+		cartData[itemId][2] += 1;
+	} else { // если товара в корзине еще нет, то добавляем в объект
+		cartData[itemId] = [itemTitle, itemPrice, 1];
+	}
+	
+	return parentBox;
+});*/
+    }</script>
+ </body>
+</html>
