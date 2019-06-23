@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <h3>Color mixer</h3>
+    <div id="color_mixer">
+      <input type="number" min="0" max="255" v-model="red" v-on:change="updateBackground">
+      <input type="range" min="0" max="255" v-model="red" v-on:change="updateBackground"><br>
+      <input type="number" min="0" max="255" v-model="green" v-on:change="updateBackground">
+      <input type="range" min="0" max="255" v-model="green" v-on:change="updateBackground"><br>
+      <input type="number" min="0" max="255" v-model="blue" v-on:change="updateBackground">
+      <input type="range" min="0" max="255" v-model="blue" v-on:change="updateBackground">
+    </div>
+    <script type="text/javascript">{
+      let mixerApp = new Vue({
+        el: "#color_mixer",
+        data: {
+            red: 255,
+            green: 255,
+            blue: 255,
+        },
+        methods: {
+          updateBackground: function() {
+            const rgb = `rgb(${this.red}, ${this.green}, ${this.blue})`; //`
+            document.body.style.backgroundColor = rgb;
+          },
+        }
+      });
+	}</script>
+  </body>
+</html>
