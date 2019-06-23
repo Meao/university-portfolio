@@ -14,7 +14,8 @@
 ####  CART     
 Разработка фронтэнд-примера – приоритетное задание с drag and drop, обеспечивает 50% рейтинга
 https://kodaktor.ru/g/cart
-  
+[Код dragdrop](/web/dragdrop.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/dragdrop_6f945)
 ####  Установка Node
 - node --version
 ![GitHub Logo](/web/1.png)
