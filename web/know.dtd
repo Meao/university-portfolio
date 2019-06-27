@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!ELEMENT table (knowledge+)>
+<!ELEMENT knowledge (rate*)>
+<!ATTLIST knowledge use CDATA #REQUIRED>
+<!ELEMENT rate (#PCDATA)>
+<!ATTLIST rate область CDATA #REQUIRED> 
