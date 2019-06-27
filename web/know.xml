@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE table PUBLIC "https://kodaktor.ru/" "http://kodaktor.ru/x/unsafe_dc5b2">
+<table>
+	<knowledge use ="confident">
+		<rate area="Structure">no</rate>
+		<rate area="Hyperlinks">Yes</rate>
+		<rate area="Formatting">Yes</rate>
+		<rate area="Images">Yes</rate>
+		<rate area="Tables">Yes</rate>
+		<rate area="color">Yes</rate>
+		<rate area="characters">no</rate>
+	</knowledge>
+	<knowledge use ='uncertain'>
+		<rate area="Structure">Yes</rate>
+		<rate area="Hyperlinks">no</rate>
+		<rate area="Formatting">no</rate>
+		<rate area="Images">no</rate>
+		<rate area="Tables">no</rate>
+		<rate area="color">no</rate>
+		<rate area="characters">Yes</rate>
+	</knowledge>
+</table>
+<!--  <h4 id="author" title="GossJS">Марина Кривцун</h4> -->
+<!-- Documentation: https://www.w3schools.com/xml/xml_dtd_elements.asp -->
