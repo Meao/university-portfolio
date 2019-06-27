@@ -1,0 +1,22 @@
+<!DOCTYPE table PUBLIC "https://kodaktor.ru/" "http://kodaktor.ru/x/unsafe_1eca7">
+<url>
+	<topIP>077.234.203.101</topIP>
+	<platformsPC>
+		<Windows>22</Windows>
+		<Linux>14</Linux>
+		<MacOS>29</MacOS>
+	</platformsPC>
+	<platformsM>
+		<iPhone>13</iPhone>
+		<Android>23</Android>
+	</platformsM>
+	<ips>
+		<ip addr="077.234.203.101" frequency="11"/>
+		<ip addr="005.018.239.169" frequency="9"/>
+		<ip addr="095.213.218.035" frequency="7"/>
+		<ip addr="083.102.198.041" frequency="6"/>
+		<ip addr="078.037.140.237" frequency="5"/>
+	</ips>
+</url>
+<!--  <h4 id="author" title="GossJS">Марина Кривцун</h4> -->
+<!-- Documentation: https://www.w3schools.com/xml/xml_dtd_elements.asp -->
