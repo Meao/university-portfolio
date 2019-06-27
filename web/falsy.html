@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head><script src="/j/out"></script>
+   <title>Тернарный оператор</title><meta charset="utf-8"><meta name="author" content="Ilya Gosudarev"><link rel="stylesheet" href="/css/board2"><link rel="stylesheet" href="/css/highcss_atom">
+ </head>
+  <body><h4 id="author" title="GossJS">Марина Кривцун</h4><h1>Тернарный оператор</h1>
+   <script src="/high.js"></script> <script>hljs.initHighlightingOnLoad();</script>
+       
+<pre>
+'=NaN', если тестируемое значение в точности есть NaN,
+'=null, если если тестируемое значение в точности есть null, '=undefined, аналогично,
+'=0', аналогично.
+'=""', в случае пустой строки
+и
+'=false' в случае значения Boolean False.
+
+<code>
+{  let a = 0;
+  let unvalued = 
+( a === NaN ) ? 'NaN' : 
+( a === null ) ? 'null' :
+( a === undefined ) ? 'undefined' :
+( a === 0 ) ? '0' :
+( a === "" ) ? '""' :
+( a === false ) ? 'false' :
+'no' ;
+  Out.log( unvalued );
+}
+</code></pre>
+    
+ <script src="/j/execute"></script></body>
+</html>
