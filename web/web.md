@@ -254,6 +254,7 @@ const [a1, b1, c1, a2, b2, c2] = [1, 3, 2, 9, 2, 7];
 init -y или
 (https://kodaktor.ru/g/init)
 2. Убедитесь, что в используемом вами редакторе кода установлен нужны плагин для работы с линтером eslint: например, для работы с редактором Atom необходимы пакеты linter-eslint и linter.
+![linter](/web/linter.png)
 3. Установите в проект настройки линтера eslint-config-airbnb.
 На странице пакета eslint-config-airbnb предлагается команда, работающая в Linux/macOS, которая производит все нужные действия:
   Тема
@@ -264,12 +265,17 @@ export PKG=eslint-config-airbnb;
 npm info "$PKG@latest" peerDependencies --
 json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest" )
 (https://www.npmjs.com/package/eslint-config-airbnb)
+![linter](/web/airbnb.png)
 4. В проекте должен присутствовать файл .eslintrc, который содержит ссылку на используемые правила. Правила после установки располагаются в папке node_modules. Пример файла .eslintrc
+![linter](/web/eslintrc.png)
 5. Улучшите с помощью линтера код:
+![linter](/web/eslin.png)
 и выведите результат выполнения функции в консоль.
+![linter](/web/lintedf.png)
 6. Для этого расставьте пробелы и переводы строк согласно рекомендациям линтер и сверьте результат:
+![linter](/web/esl.png)
 7. Разместите отчёт (лог действий) в репозитории (веб-портфолио).
-
+![linter](/web/eslint.png)
 ####  II. Использование средств разработчика браузера Chrome
 1. Откройте в браузере страницу https://kodaktor.ru/tree_trace2
 2. Откройте консоль разработчика (⌥ ⌘ J или Ctrl + Shift + J)
