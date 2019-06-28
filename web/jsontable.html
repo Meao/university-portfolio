@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head><style>h1 {color:blue}</style>
+  <title>Знакомство с JSON - 2</title><script src="/j/out"></script><meta charset="utf-8">
+  <style>
+    table {width: 95%; border: 3px double; padding: 10px; border-radius: 20px}
+    th, td {padding: 10px; font: normal 20px sans-serif}
+    th {font-weight: bold; text-align: left; background: #555; color: white; border-radius: 10px}
+    tr:nth-child(odd) {background : #CCC}
+    pre {white-space: pre-wrap}
+  </style>
+  </head>
+ <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <h1>Знакомство с JSON - 2</h1>
+    <pre>2. Ознакомьтесь с инструкцией и скринкастом по адресу https://kodaktor.ru/g/json_intro
+3. Осуществите линтинг JSON-документа (список валют) по адресу https://kodaktor.ru/j/rates с помощью jsonlint.com и сгенерируйте для него схему с помощью запроса https://kodaktor.ru/api/schema/rates, после чего отвалидируйте этот документ относительно этой схемы любым доступным способом
+4. Напишите в качестве бета-версии выполнения этого задания инструкции по образцу https://kodaktor.ru/logins09012018 которые выводят список названий валют извлечённых из указанного выше списка. Используйте глобальный метод fetch, а также методы createElement и appendChild.
+5. Напишите инструкции, улучшающие предыдущий вариант, которые представляют курсы валют в виде таблицы:
+6. Разместите адрес борда (а также его скриншот и лог действий) в репозитории (веб-портфолио) и в специально созданном форуме в соответствующем курсе в СДО Moodle.</pre>
+   <table><tbody id="tbody"><tr><th>Валюта</th><th>Продажа</th><th>Покупка</th></tr></tbody></table>
+    <script>{
+  let tbody = document.querySelector('#tbody');
+  fetch('/j/rates').then(x=>x.json())
+  .then(x=>{
+    x.forEach(y=>{
+      let tr = document.createElement("tr");
+      
+      let tdName = document.createElement("td");
+      let tdSell = document.createElement("td");
+      let tdBuy = document.createElement("td");
+      
+      tdName.textContent = y.name;
+      tdSell.textContent = y.sell;
+      tdBuy.textContent = y.buy;
+      
+      tr.appendChild(tdName);
+      tr.appendChild(tdSell);
+      tr.appendChild(tdBuy);
+      tbody.appendChild(tr);
+    });
+  });
+}</script>
+ </body>
+</html>
