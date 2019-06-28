@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Страница HTML5</title><meta charset="utf-8">
+    <style>
+      * {zoom:120%}
+      pre {white-space: pre-wrap}
+    </style>
+  </head><body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+  <pre>II. Разработка веб-сценария, формирующего галерею кэшированных изображений, с помощью модификации дерева DOM
+1. Создайте веб-страницу (борд) на Кодактор.ру или ином онлайн-редакторе
+2. Напишите функцию, которая создаёт и возвращает элемент img по переданному ей адресу изображения (url):
+3. Напишите инструкцию, которая вставляет рисунок, возвращённый этой функцией: document.body.appendChild(cacheIm('http://www.domaingyan.com/wp- content/uploads/2012/07/web-hosting1.png'));
+4. Добавьте обработчик событий таким образом, чтобы по щелчку по этому изображению оно обводилось толстой красной рамкой.
+5. Пусть есть массив адресов изображений. Используйте метод forEach для вставки каждого из этих изображений подряд на веб-страницу.
+6. Пусть описанное выше выполняется по щелчку по кнопке. Используйте метод addEventListener для добавления события click
+Нажатие на вторую кнопку не должно производить никаких действий, пока не нажата первая кнопка. После нажатия первой кнопки изображение загружается, а сама первая кнопка исчезает.
+Далее после нажатия по второй кнопке вставляется загруженное ранее изображение.
+7. Разместите адрес борда (а также его скриншот и лог действий) в репозитории (веб-портфолио) и в специально созданном форуме в соответствующем курсе в СДО Moodle. Образец: https://kodaktor.ru/dom_imgins
+</pre>
+  <button id="l">Load Image</button><button id="i">Insert Image</button>
+  <script>{
+  const imageURLs = ['/iter.png', '/iter.png'];
+  
+  function insCertainImage() { // as required in the task
+    // this domain is no longer available
+    let img = cacheIm('http://www.domaingyan.com/wp- content/uploads/2012/07/web-hosting1.png');
+    im.addEventListener('click', ({ target }) => {
+      target.style.border = '1em solid red';
+    });
+    document.body.appendChild(img);
+  }
+  
+  function insIm(im){
+    document.body.appendChild(im);
+  }  
+  function cacheIm(url){
+    const im = document.createElement('img');
+    im.src = url;
+    im.addEventListener('click', ({ target }) => {
+      target.style.border = '1em solid red';
+    });
+    return im;
+  }
+  document.querySelector('#l')
+  .addEventListener('click', ({ target }) => {
+    let cachedImages = new Array();
+    
+    imageURLs.forEach((url) => {
+      cachedImages.push(cacheIm(url));
+    });
+    
+    document.querySelector('#i')
+    .addEventListener('click', ({ target }) => {
+      cachedImages.forEach((img) => insIm(img));
+      target.style.display = 'none';
+    });
+    
+    target.style.display = 'none';
+  });
+  
+}</script>
+ </body>
+</html>
