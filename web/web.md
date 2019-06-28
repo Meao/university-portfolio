@@ -369,7 +369,7 @@ Object.defineProperty(exports, "__esModule", { value: true
 });
 exports.default = 'E. B. Goss';
 10. Разместите полученный отчёт (лог действий) в репозитории (веб-портфолио).
-
+![ecosysteme](/web/transpilled.png)
 ####  II. Преобразование кода на JavaScript, содержащего конструкции из следующих версий стандарта ECMAScript
 Осуществите преобразование кода, содержащего поля класса. Для этого:
 1. Добавьте поддержку class properties
