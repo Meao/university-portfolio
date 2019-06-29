@@ -4,18 +4,130 @@
 
 Обязательные задания из списка ниже:
   
-  FUNC_00*
-  ASYNC-TASKS
-  BABL_002
-  EVNT_002
-  FRMW_00*
-  YOU
-  
+--- клиентские ---
+
+kodaktor.ru/g/json_intro
+FUNC-001 ...  FUNC-010
+IPS_TASK
+EVNT_002
+EVNT_003
+BABL_002
+kodaktor.ru/g/bndl_001
+CART
+frmw_001 ... frmw_005
+YOU
+CANV_001
+
+--- серверные  --- 
+
+kodaktor.ru/sss/t4-2.pdf - сессии (Node.js)
+moodle.herzen.spb.ru/mod/resource/view.php?id=110833
+moodle.herzen.spb.ru/pluginfile.php/228177/mod_resource/content/1/lrfiles.pdf
+github.com/GossJS/mailer
+
+####  --- клиентские --- kodaktor.ru/g/json_intro JSON-INTRO    
+Схема JSON-документа  
+https://kodaktor.ru/g/json_intro
+1. Создайте веб-страницу (борд) на Кодактор.ру или ином онлайн-редакторе
+2. Ознакомьтесь с инструкцией и скринкастом по адресу https://kodaktor.ru/g/json_intro
+[JSON](https://kodaktor.ru/jsin_06b5e)
+![JSON](/web/validjsonlint.png)
+[JSON schema](https://kodaktor.ru/jsin_99d55)
+![JSON](/web/jsonschemavalid.png)
+####  FUNC_00*
+FUNC-001 ...  FUNC-010
+10 заданий по теме «Функции»
+https://kodaktor.ru/func
+IIFE-001
+Задание на IIFE
+https://kodaktor.ru/g/iife
+kodaktor.ru/iife
+[Код iife](/web/iife.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/16102018_d0a2b)
+- kodaktor.ru/func_001 
+[Код](/web/task_func_1.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_cd81e)
+(goss_concat)
+[Код concat](/web/goss_concat.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_cd81e)
+https://moodle.herzen.spb.ru/mod/forum/view.php?f=7556&group=1902
+JSIN-001
+Вводное задание по JavaScript
+https://kodaktor.ru/jsin_001
+[Код heron](/web/heron.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_f5d96)
+[Код celsus](/web/celsus.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_a3b4f)
+- kodaktor.ru/func_002 (this)
+[Код this](/web/this.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_047fb)
+- kodaktor.ru/func_003 (импорт и bind)
+[Код bind](/web/bind.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_94189)
+- kodaktor.ru/func_004 (func_task, compose)
+[Код compose](/web/compose.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_3085e)
+- kodaktor.ru/func_005 (каррирование)
+[Код curry](/web/curry.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_6c07f)
+- kodaktor.ru/func_006 (транспиляция)
+![GitHub Logo](/web/flow.png)
+[Код](/web/transpil.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_ecb0e)
+- kodaktor.ru/func_007 (рекурсия)
+[Код recurr](/web/recurr.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_157fe)
+- kodaktor.ru/func_008 (массив тел, конструктор, spread)
+[Код spread](/web/spread.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_4fc00)
+https://kodaktor.ru/g/18102018 Строки и массивы
+[Код strings](/web/strings.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/16102018_e83ae)
+https://kodaktor.ru/25102018 args
+[Код strings](/web/args.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/16102018_18386)
+- kodaktor.ru/func_009 (замыкание)
+[Код](/web/za.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_b7d66)
+- kodaktor.ru/func_010 (безымянная рекурсия)
+[Код noname](/web/noname.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/func_0cc6f)
+####  IPS_TASK 
+[Код](/web/ips.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/ips_6ae01)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/unsafe_9c17a)
+[Код на сайте kodaktor](https://kodaktor.ru/unsafe_1eca7)
+![Код](/web/xmlval.png)
+[Код](/web/ips.xml)
+[Код](/web/ips.dtd)
+####  EVNT_002
+События: кастомные события, коммуникация компонентов
+https://kodaktor.ru/evnt_002
+[Код EVNT](/web/EVNT.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/evnt_8fbce)
+####  EVNT_003 
+####  BABL_002
+Транспиляция: bind
+https://kodaktor.ru/babl_002
+![GitHub Logo](/web/flow.png)
+[Код bind2](/web/bind2.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/bind02032018_09264) 
+####  kodaktor.ru/g/bndl_001 
 ####  CART     
 Разработка фронтэнд-примера – приоритетное задание с drag and drop, обеспечивает 50% рейтинга
 https://kodaktor.ru/g/cart
 [Код dragdrop](/web/dragdrop.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/dragdrop_6f945)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/dragdrop_6f945) 
+####  frmw_001 ... frmw_005 
+####  YOU 
+####  CANV_001 
+####  --- серверные  --- kodaktor.ru/sss/t4-2.pdf - сессии (Node.js) 
+####  moodle.herzen.spb.ru/mod/resource/view.php?id=110833 
+####  moodle.herzen.spb.ru/pluginfile.php/228177/mod_resource/content/1/lrfiles.pdf 
+####  github.com/GossJS/mailer 
+  
+Задания для самостоятельной работы:
+
 ####  Установка Node
 - node --version
 ![GitHub Logo](/web/1.png)
@@ -37,64 +149,6 @@ https://kodaktor.ru/g/xml_intro
 Формулировка задания и страница для форка: https://kodaktor.ru/task_intro
 [Код](/web/task_intro.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/task_fb7ee)
-####  FUNC_00*
-FUNC-001 ...  FUNC-010
-10 заданий по теме «Функции»
-https://kodaktor.ru/func
-IIFE-001
-Задание на IIFE
-https://kodaktor.ru/g/iife
-kodaktor.ru/iife
-[Код iife](/web/iife.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/16102018_d0a2b)
-kodaktor.ru/func_001 
-[Код](/web/task_func_1.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_cd81e)
-(goss_concat)
-[Код concat](/web/goss_concat.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_cd81e)
-https://moodle.herzen.spb.ru/mod/forum/view.php?f=7556&group=1902
-JSIN-001
-Вводное задание по JavaScript
-https://kodaktor.ru/jsin_001
-[Код heron](/web/heron.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_f5d96)
-[Код celsus](/web/celsus.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/task_func_a3b4f)
-kodaktor.ru/func_002 (this)
-[Код this](/web/this.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/func_047fb)
-kodaktor.ru/func_003 (импорт и bind)
-[Код bind](/web/bind.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/func_94189)
-kodaktor.ru/func_004 (func_task, compose)
-[Код compose](/web/compose.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/func_3085e)
-kodaktor.ru/func_005 (каррирование)
-[Код curry](/web/curry.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/func_6c07f)
-kodaktor.ru/func_006 (транспиляция)
-![GitHub Logo](/web/flow.png)
-[Код](/web/transpil.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/func_ecb0e)
-kodaktor.ru/func_007 (рекурсия)
-[Код recurr](/web/recurr.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/func_157fe)
-kodaktor.ru/func_008 (массив тел, конструктор, spread)
-[Код spread](/web/spread.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/func_4fc00)
-https://kodaktor.ru/g/18102018 Строки и массивы
-[Код strings](/web/strings.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/16102018_e83ae)
-https://kodaktor.ru/25102018 args
-[Код strings](/web/args.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/16102018_18386)
-kodaktor.ru/func_009 (замыкание)
-[Код](/web/za.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/func_b7d66)
-kodaktor.ru/func_010 (безымянная рекурсия)
-[Код noname](/web/noname.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/func_0cc6f)
 ####  ASYNC-TASKS
 Промисы и for await of
 https://kodaktor.ru/async_tasks
@@ -106,17 +160,6 @@ https://kodaktor.ru/30102018
 [Работа кода на сайте kodaktor](https://kodaktor.ru/aa59779_285af)
 [Код await](/web/await.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/08112018_ad33f)
-####  BABL_002
-Транспиляция: bind
-https://kodaktor.ru/babl_002
-![GitHub Logo](/web/flow.png)
-[Код bind2](/web/bind2.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/bind02032018_09264)
-####  EVNT_002
-События: кастомные события, коммуникация компонентов
-https://kodaktor.ru/evnt_002
-[Код EVNT](/web/EVNT.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/evnt_8fbce)
 ####  FRMW_00*
 задания по react, vue, material design
 https://kodaktor.ru/g/state – обзор концепций, связанных с состоянием и хранилищем
@@ -173,6 +216,15 @@ https://kodaktor.ru/g/xml_intro
 описывают пять самых часто встречающихся адресов в порядке убывания IPS_TASK
 Обработка данных из массива в JS
 https://kodaktor.ru/g/ips_task
+Дан массив IP-адресов пользователей, которые посещали сайт.
+https://kodaktor.ru/j/ips 
+Необходимо создать частотную таблицу (массив, в котором нет повторяющихся адресов и напротив каждого адреса указана частота посещения сайта пользователем с этого адреса), после чего отсортировать по убыванию частот, так чтобы в верхней части таблицы были самые активные посетители сайта.
+Отдельно ответьте на вопросы:
+(а) сколько всего различных адресов присутствует массиве
+(б) со скольких адресов сайт посещался по одному разу
+(в) какова максимальная частота посещения
+[Код](/web/ips.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/ips_6ae01)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/unsafe_9c17a)
 [Код на сайте kodaktor](https://kodaktor.ru/unsafe_1eca7)
 ![Код](/web/xmlval.png)
@@ -247,6 +299,10 @@ https://kodaktor.ru/tern_001
 https://kodaktor.ru/g/json_intro
 1. Создайте веб-страницу (борд) на Кодактор.ру или ином онлайн-редакторе
 2. Ознакомьтесь с инструкцией и скринкастом по адресу https://kodaktor.ru/g/json_intro
+[JSON](https://kodaktor.ru/jsin_06b5e)
+![JSON](/web/validjsonlint.png)
+[JSON schema](https://kodaktor.ru/jsin_99d55)
+![JSON](/web/jsonschemavalid.png)
 3. Осуществите линтинг JSON-документа (список валют) по адресу https://kodaktor.ru/j/rates с помощью jsonlint.com и сгенерируйте для него схему с помощью запроса https://kodaktor.ru/api/schema/rates, после чего отвалидируйте этот документ относительно этой схемы любым доступным способом
 ![Схемы](/web/jsonlint.png)
 4. Напишите в качестве бета-версии выполнения этого задания инструкции по образцу https://kodaktor.ru/logins09012018 которые выводят список названий валют извлечённых из указанного выше списка. Используйте глобальный метод fetch, а также методы createElement и appendChild.
