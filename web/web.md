@@ -149,10 +149,10 @@ https://kodaktor.ru/you
 [Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_9e739)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_67143)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_f655b)
-[Код histogram](/web/histogram.php)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_f5e1c)
 ####  --- серверные  --- kodaktor.ru/sss/t4-2.pdf - сессии (Node.js) 
 ####  moodle.herzen.spb.ru/mod/resource/view.php?id=110833 
+[Код histogram](/web/histogram.php)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_f5e1c)
 ####  moodle.herzen.spb.ru/pluginfile.php/228177/mod_resource/content/1/lrfiles.pdf 
 ####  github.com/GossJS/mailer 
   
