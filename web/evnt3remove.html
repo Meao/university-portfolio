@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Создание событий</title><meta charset="utf-8">
+ </head>
+ <body><h4 id="author" title="GossJS">Марина Кривцун</h4><div></div>
+   <script src="/j/dblttl"></script> <script src="/high.js"></script> <script>hljs.initHighlightingOnLoad();</script>
+
+Кастомные компоненты
+Используя инструкцию из видеоурока, создайте аналогичный компонент, позволяющий добавлять и удалять «звёзды» или «лайки» фреймворкам. Компонент должен помнить своё состояние, иметь кнопки для добавления и удаления, и показывать число лайков не в виде одного числа, а в виде ряда звёзд / сердец / лайков. Первоначальная информация  о количестве голосов, отданных за фреймворки, находится по адресу https://kodaktor.ru/j/react5b_6cbf2
+  
+    <h6 id="readerA" title="⭐️">Angular</h6>
+    <button id="moreA">+</button><button id="lessA">-</button>
+   <h6 id="readerR" title="⭐️">React<span>⭐️</span><span>⭐️</span><span>⭐️</span></h6>
+    <button id="moreR">+</button><button id="lessR">-</button>
+    <h6 id="readerV" title="⭐️">Vue<span>⭐️</span><span>⭐️</span></h6>
+    <button id="moreV">+</button><button id="lessV">-</button>
+    <script>{
+      document.querySelector('#readerA').addEventListener('note', e => {
+					let newStar = document.createElement('span');
+					newStar.textContent = e.target.title;
+					document.querySelector('#readerA').appendChild(newStar);
+      });
+      document.querySelector('#moreA').addEventListener('click',() => document.querySelector('#readerA').dispatchEvent(new CustomEvent('note')));
+  
+      document.querySelector('#readerR').addEventListener('note', e => {
+					let newStar = document.createElement('span');
+					newStar.textContent = e.target.title;
+					document.querySelector('#readerR').appendChild(newStar);
+      });
+      document.querySelector('#moreR').addEventListener('click',() => document.querySelector('#readerR').dispatchEvent(new CustomEvent('note')));
+  
+      document.querySelector('#readerV').addEventListener('note', e => {
+					let newStar = document.createElement('span');
+					newStar.textContent = "⭐️";
+					document.querySelector('#readerV').appendChild(newStar);
+      });
+      document.querySelector('#moreV').addEventListener('click',() => document.querySelector('#readerV').dispatchEvent(new CustomEvent('note')));
+  
+      document.querySelector('#readerA').addEventListener('notelessA', e => {
+        var framew = document.getElementById("readerA");
+    framew.removeChild(framew.childNodes[1]);
+      });
+      document.querySelector('#lessA').addEventListener('click',() => document.querySelector('#readerA').dispatchEvent(new CustomEvent('notelessA')));
+  
+      document.querySelector('#readerR').addEventListener('noteless', e => {
+        var framew = document.getElementById("readerR");
+    framew.removeChild(framew.childNodes[1]);
+      });
+      document.querySelector('#lessR').addEventListener('click',() => document.querySelector('#readerR').dispatchEvent(new CustomEvent('noteless')));
+  
+      document.querySelector('#readerV').addEventListener('noteless', e => {
+        var framew = document.getElementById("readerV");
+    framew.removeChild(framew.childNodes[1]);
+      });
+      document.querySelector('#lessV').addEventListener('click',() => document.querySelector('#readerV').dispatchEvent(new CustomEvent('noteless')));
+  /*
+  https://www.w3schools.com/jsref/met_node_removechild.asp
+  https://www.w3schools.com/jsref/met_node_appendchild.asp
+  
+function myFunction() {
+  var list = document.getElementById("myList");
+  
+  if (list.hasChildNodes()) {
+    list.removeChild(list.childNodes[0]);
+  }
+}
+  
+function myFunction() {
+  var star = document.createElement("SPAN");
+  star.innerHTML = "⭐️";
+  document.getElementById("readerA").appendChild(star);
+}*/
+    }</script>
+ </body>
+</html>
