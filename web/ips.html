@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>IPS</title><meta charset="utf-8">
+   <link rel="stylesheet" href="/css/board2"><link rel="stylesheet" href="/css/highcss_atom">
+ </head>
+ <body>
+    <script src="/j/out"></script>
+    <script src="/j/dblttl"></script>
+   <h4 id="author" title="GossJS">Марина Кривцун</h4>
+   <pre class="task">
+Дан массив IP-адресов пользователей, которые посещали сайт.
+https://kodaktor.ru/j/ips 
+
+Необходимо создать частотную таблицу (массив, в котором нет повторяющихся адресов и напротив каждого адреса указана частота посещения сайта пользователем с этого адреса), после чего отсортировать по убыванию частот, так чтобы в верхней части таблицы были самые активные посетители сайта.
+
+Отдельно ответьте на вопросы:
+(а) сколько всего различных адресов присутствует массиве
+(б) со скольких адресов сайт посещался по одному разу
+(в) какова максимальная частота посещения
+     <code>
+      <div class="text">
+      </div>
+       <table id="table" border=1>
+      </table>
+     </code>
+   </pre>
+   <script>{
+       const url = "https://kodaktor.ru/j/ips";
+        const getData = async () => (await fetch(url)).json();
+        const filterUnique = arr => [...new Set(arr)];
+        const countIn = (arr, val) => arr.reduce((a, v) => (v === val ? a + 1 : a), 0);
+        const sort = (a, b) => b[1] - a[1];
+        const makeTableHTML = (arr) => {
+          let result = "";
+          arr.forEach((el) => {
+            result += "<tr>";
+            el.forEach((el) => result += "<td>" + el + "</td>");
+            result += "</tr>";
+          })
+          return result;
+        }
+
+        (async () => {
+          let data = [await getData()][0];
+          let allips = data.map(x => x.ip);
+          let uniqueips = filterUnique(allips);
+          let visitedonce = [];
+          uniqueips.forEach((el) => (countIn(allips, el) == 1) ? visitedonce.push([el, countIn(allips, el)]) : null);
+          let frequencies = [];
+          uniqueips.forEach((el) => frequencies.push([el, countIn(allips, el)]));
+          frequencies.sort(sort);
+          let el = document.querySelector('.text');
+          el.innerHTML += 'Всего различных адресов присутствует массиве ' + allips.length;
+          el.innerHTML += '; сайт посещался по одному разу ' + visitedonce.length;
+          el.innerHTML += '; максимальная частота посещения ' + frequencies[0][1];
+        let table = document.querySelector('#table');
+         table.innerHTML += makeTableHTML(frequencies);
+        })();
+     }
+     </script>
+   <script>{Array.from(document.querySelectorAll('pre code'),e=>e.parentNode.appendChild(document.createElement('script')).appendChild(document.createTextNode(e.textContent)));}</script> <script src="/Autolinker.min.js"></script><script>document.body.innerHTML = Autolinker.link( document.body.innerHTML );</script>
+ </body>
+</html>
