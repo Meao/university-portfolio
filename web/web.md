@@ -106,6 +106,8 @@ https://kodaktor.ru/evnt_002
 [Код EVNT](/web/EVNT.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/evnt_8fbce)
 ####  EVNT_003 
+[Код evnt3remove.html](/web/evnt3remove.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/custom_03630)
 ####  BABL_002
 Транспиляция: bind
 https://kodaktor.ru/babl_002
@@ -118,9 +120,37 @@ https://kodaktor.ru/babl_002
 https://kodaktor.ru/g/cart
 [Код dragdrop](/web/dragdrop.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/dragdrop_6f945) 
-####  frmw_001 ... frmw_005 
-####  YOU 
+####  frmw_001 ... frmw_005
+задания по react, vue, material design
+https://kodaktor.ru/g/state – обзор концепций, связанных с состоянием и хранилищем
+- https://kodaktor.ru/frmw_001 – введение и двустороннее связывание на React
+
+[Код render](/web/render.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/react_state_9afea)
+[Код Redux](/web/Redux.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/react_simple_694be)
+- https://kodaktor.ru/frmw_002 – введение во Vue
+[Код Vue](/web/Vue.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/vue_starter_0fb59)
+- https://kodaktor.ru/frmw_003
+
+[Код x](/web/x.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/react_simple_d0ca1)
+- https://kodaktor.ru/frmw_004
+
+- https://kodaktor.ru/frmw_005
+[Код vue mixer](/web/vuemixer.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/fd31784_3b2f7)
+####  YOU
+Проект YOU
+https://kodaktor.ru/you 
 ####  CANV_001 
+[Код canvas](/web/canvas.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_9e739)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_67143)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_f655b)
+[Код histogram](/web/histogram.php)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_f5e1c)
 ####  --- серверные  --- kodaktor.ru/sss/t4-2.pdf - сессии (Node.js) 
 ####  moodle.herzen.spb.ru/mod/resource/view.php?id=110833 
 ####  moodle.herzen.spb.ru/pluginfile.php/228177/mod_resource/content/1/lrfiles.pdf 
@@ -128,6 +158,14 @@ https://kodaktor.ru/g/cart
   
 Задания для самостоятельной работы:
 
+####  FRMW_00*
+https://kodaktor.ru/frmw_006 – введение в ELM
+
+https://kodaktor.ru/frmw_007 – Material UI
+
+https://kodaktor.ru/redux_intro – введение в Redux
+https://kodaktor.ru/effector_intro – введение в Effector (⚡️framework-agnostic)
+связующее звено с материалом следующего семестра – клиентский роутер 
 ####  Установка Node
 - node --version
 ![GitHub Logo](/web/1.png)
@@ -160,37 +198,8 @@ https://kodaktor.ru/30102018
 [Работа кода на сайте kodaktor](https://kodaktor.ru/aa59779_285af)
 [Код await](/web/await.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/08112018_ad33f)
-####  FRMW_00*
-задания по react, vue, material design
-https://kodaktor.ru/g/state – обзор концепций, связанных с состоянием и хранилищем
-https://kodaktor.ru/frmw_001 – введение и двустороннее связывание на React
 
-[Код render](/web/render.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/react_state_9afea)
-[Код Redux](/web/Redux.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/react_simple_694be)
-https://kodaktor.ru/frmw_002 – введение во Vue
-[Код Vue](/web/Vue.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/vue_starter_0fb59)
-https://kodaktor.ru/frmw_003
 
-[Код x](/web/x.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/react_simple_d0ca1)
-https://kodaktor.ru/frmw_004
-
-https://kodaktor.ru/frmw_005
-[Код vue mixer](/web/vuemixer.html)
-[Работа кода на сайте kodaktor](https://kodaktor.ru/fd31784_3b2f7)
-https://kodaktor.ru/frmw_006 – введение в ELM
-
-https://kodaktor.ru/frmw_007 – Material UI
-
-https://kodaktor.ru/redux_intro – введение в Redux
-https://kodaktor.ru/effector_intro – введение в Effector (⚡️framework-agnostic)
-связующее звено с материалом следующего семестра – клиентский роутер
-####  YOU
-Проект YOU
-https://kodaktor.ru/you
 
 ####  Тема 1. Языковые средства веб-технологий на основе XML и CSS и развёртывание среды разработки компонентов аппаратно-программных комплексов. XMLT-001, XMLT-002     
 Разработка языка разметки  
