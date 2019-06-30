@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <h3>VUE TODO list by Marina Krivcun IVT2</h3>
+    <div id="todo_list">
+      <ol>
+        <li v-for="item in list" v-bind:id="item.id" :style="{ fontFamily: 'Roboto, Roboto Condensed, sans-serif' }">
+          <input type="checkbox" v-model="item.checked" v-bind:id="item.id" v-on:click="deleteElement(item.id)">
+          <label v-bind:for="item.id" :style="{ fontFamily: 'Roboto, Roboto Condensed, sans-serif' }">{{ item.title }}</label>
+        </li>
+      </ol>
+      <input type="text" v-model="newElement" placeholder="Add element">
+      <button type="submit" v-on:click="created()">+</button>
+    </div>
+    <script type="text/javascript">{
+      let listApp = new Vue({
+        el: "#todo_list",
+        data: {
+          nextId: 7,
+          newElement: "",
+          list: [
+            { id: 0, title: "First", checked: false },
+            { id: 1, title: "Second", checked: false },
+            { id: 2, title: "- В чём смысл жизни?", checked: false },
+            { id: 3, title: "- Чьей?", checked: false },
+            { id: 4, title: "- Моей...", checked: false },
+            { id: 5, title: "- Отсутствует. Следующий!", checked: false },
+            { id: 6, title: "(с) Евгений Лукин", checked: false },
+          ]
+        },
+        methods: {
+          created: function() {
+        	const newElement = {
+            	id: Number(this.nextId),
+            	title: this.newElement,
+            	checked: false,
+            };
+            this.nextId += 1;
+            this.list = [...this.list, newElement];
+          },
+         deleteElement: function(id) {
+           this.list = [...this.list].filter(el => el.id !== id);
+         }
+        }
+      });
+	}</script>
+  </body>
+</html>
+
