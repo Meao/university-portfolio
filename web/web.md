@@ -127,7 +127,8 @@ https://kodaktor.ru/g/cart
 задания по react, vue, material design
 https://kodaktor.ru/g/state – обзор концепций, связанных с состоянием и хранилищем
 - https://kodaktor.ru/frmw_001 – введение и двустороннее связывание на React
-
+[Код pwr](/web/pwr.html)
+[Работа кода на сайте kodaktor](https://kodaktor.ru/g/0588038_b94a1)
 [Код render](/web/render.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/react_state_9afea)
 [Код Redux](/web/Redux.html)
