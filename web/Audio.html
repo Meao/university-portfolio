@@ -1,0 +1,23 @@
+<html>
+  <head><title>Аудиокнопка</title><meta charset="utf-8" /><link rel="stylesheet" href="/css/board0">
+    <style>button {
+        cursor:pointer; 
+  background-color: #ffbfbe;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  border: 2px solid #fe6637;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif; 
+  color: #fe6637;}
+     body {background: #fefefe;}
+  video {position: absolute; right: 5px; top: 150px}</style>
+  </head>
+  <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <h1>Создание аудиокнопки</h1>
+ 
+    <br><audio><source type="audio/mpeg"  src="http://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/lea/learn/learning__gb_1.mp3" /></audio><button>learning - /ˈlɜːnɪŋ/</button>
+    <script>{document.querySelector('button').addEventListener('click', () => {        document.querySelector('audio').play();}
+            )}</script>
+  </body>  
+</html>
