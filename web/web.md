@@ -117,6 +117,7 @@ https://kodaktor.ru/babl_002
 [Код bind2](/web/bind2.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/bind02032018_09264) 
 ####  kodaktor.ru/g/bndl_001 
+[Работа кода на сайте github](https://meao.github.io/bundle/)
 ####  CART     
 Разработка фронтэнд-примера – приоритетное задание с drag and drop, обеспечивает 50% рейтинга
 https://kodaktor.ru/g/cart
@@ -146,7 +147,7 @@ https://kodaktor.ru/g/state – обзор концепций, связанны�
 ####  YOU
 Проект YOU
 https://kodaktor.ru/you 
-
+[Работа кода на сайте github](https://meao.github.io/you/)
 ![you api](/web/youapi.png)
 ![you credentials](/web/youcredentials.png)
 ![you key](/web/youkey.png)
