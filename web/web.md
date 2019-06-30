@@ -164,6 +164,10 @@ https://kodaktor.ru/you
 [Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_f5e1c)
 ####  moodle.herzen.spb.ru/pluginfile.php/228177/mod_resource/content/1/lrfiles.pdf 
 ####  github.com/GossJS/mailer 
+[Код на github](https://github.com/Meao/mailer)
+![mailer local host](/web/mailerlocalhost.png)
+![mail sent](/web/mailsent.png)
+![mail php server](/web/mailphpserver.png)
   
 Задания для самостоятельной работы:
 
