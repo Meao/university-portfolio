@@ -163,6 +163,8 @@ https://kodaktor.ru/you
 [Код histogram](/web/histogram.php)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_f5e1c)
 ####  moodle.herzen.spb.ru/pluginfile.php/228177/mod_resource/content/1/lrfiles.pdf 
+![Работа logger на компьютере](/web/logger.png)
+[код logger](https://github.com/Meao/logger)
 ####  github.com/GossJS/mailer 
 [Код на github](https://github.com/Meao/mailer)
 ![mailer local host](/web/mailerlocalhost.png)
