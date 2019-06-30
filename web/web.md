@@ -184,7 +184,9 @@ https://kodaktor.ru/you
 https://kodaktor.ru/frmw_006 – введение в ELM
 
 https://kodaktor.ru/frmw_007 – Material UI
-
+[Код на github](https://meao.github.io/MaterialUI/)
+![Material UI local host](/web/MaterialUI.png)
+![Material UI Calendar](/web/MaterialUICalendar.png)
 https://kodaktor.ru/redux_intro – введение в Redux
 https://kodaktor.ru/effector_intro – введение в Effector (⚡️framework-agnostic)
 связующее звено с материалом следующего семестра – клиентский роутер 
