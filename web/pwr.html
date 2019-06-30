@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>React Browser Starter</title>
+    <script src="/j/out"></script>
+    <script src="//unpkg.com/react/umd/react.development.js"></script>
+    <script src="//unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="//unpkg.com/@babel/standalone/babel.min.js"></script>
+ </head>
+ <body>
+   <h3>FRMW_001</h3>
+    <h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <div id="root"></div>
+    <script type="text/babel">
+      class PowerButton extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = {
+            nextPower: Number(props.power),
+          };
+        }
+        
+        handleClick() {
+          Out.log(Math.pow(this.props.base, this.state.nextPower));
+          const nextPowerValue = this.state.nextPower + 1;
+          this.setState({ nextPower: nextPowerValue });
+        }
+        
+        render() {
+          return (
+            <button onClick={() => this.handleClick()}>
+              {this.props.base} to the power of {this.state.nextPower}
+            </button>
+          );
+        }
+      };
+      
+      ReactDOM.render(
+        <PowerButton base="10" power="2" />,
+        document.getElementById('root')
+      );
+   </script>
+ </body>
+</html>
