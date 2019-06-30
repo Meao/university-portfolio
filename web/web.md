@@ -147,6 +147,11 @@ https://kodaktor.ru/g/state – обзор концепций, связанны�
 Проект YOU
 https://kodaktor.ru/you 
 
+![you api](/web/youapi.png)
+![you credentials](/web/youcredentials.png)
+![you key](/web/youkey.png)
+![you localhost](/web/youlocalhost.png)
+![you webpacked](/web/youwebpacked.png)
 ####  CANV_001 
 [Код canvas](/web/canvas.html)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_9e739)
