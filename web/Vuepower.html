@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/j/out"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>FRMW-004</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Marina Krivtsun">
+    <link rel="stylesheet" href="/css/board2">
+  </head>
+  <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <script src="/j/dblttl"></script>
+    <div id="pow_app">
+      <power-button base="10" power="2"></power-button>
+    </div>
+    <script type="text/javascript">{
+Vue.component('power-button', {
+	props: ['base', 'power'],
+	template: `<button v-on:click="btnClick()">
+				{{ base }} to the power of {{ nextPower }}
+			  </button>`,
+	data: function() {
+		return {
+   			nextPower: this.power,
+   		};
+   	},
+	methods: {
+   		btnClick: function() {
+        	const result = Math.pow(this.base, this.nextPower);
+        	Out.log(result);
+        	this.nextPower++;
+		}
+	}
+});
+let powApp = new Vue({
+	el: "#pow_app",
+});
+}</script>
+  </body>
+</html>
+
