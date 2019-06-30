@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head><title>Рисование диаграммы по данным</title> 
+ </head>
+ <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+    <button>Рисовать </button><hr>
+    <script src="/j/canvas_0b"></script>
+    <script>{
+       const { canvas, ctx } = makeCanvas(700, 220);
+       document.body.appendChild(canvas);
+       const { width: w, height: h } = canvas;
+       ctx.lineWidth = 1;
+	   ctx.strokeStyle = 'blue';
+       ctx.textAlign = 'center';  
+	   ctx.strokeRect(1, 2, w - 2, h - 2);
+       ctx.fillStyle = 'red';
+	   document.querySelector('button').addEventListener('click', async ({ target }) => { 
+  		let rates = await fetch('https://kodaktor.ru/j/rates').then(x => x.json());
+        const names = rates.map(({ name }) => name);
+        rates = rates.map(({ sell }) => Number(sell));
+        rates = rates.map(x => x * h / Math.max(...rates));
+        const wRect = Math.floor(w/rates.length);
+        rates.forEach((x, i) => {
+          ctx.fillRect(2 + i * wRect, h - 1, wRect - 4, 5 - x);
+          ctx.strokeText(names[i], wRect / 2 + i * wRect, h - 5);
+        });
+	   }, { once: true });
+    }</script>   
+ </body>
+</html>
