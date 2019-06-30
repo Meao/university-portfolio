@@ -1,0 +1,58 @@
+<h4 id="author" title="GossJS">Марина Кривцун</h4>
+<ol>
+  <li>Первый</li>
+  <li>Второй</li>
+  <li>Третий</li>  
+  <li>Четвёртый</li> 
+  <li>Пятый</li>
+</ol>
+
+<button>Translate</button>
+
+    <script src="/j/clicker"></script>
+<script>{ console.clear();
+    const lis = document.querySelectorAll('li');  //get all li elements
+    const translate = ru => 
+       (ru === 'Первый') ? 'First' : (ru === 'Второй') ? 'Second' : (ru === 'Третий') ? 'Third' : 'Unknown';
+    // Напишите код с методом forEach, который использует функцию translate для перевода элементов списка на английский.
+         document.querySelector('button').addEventListener('click', () => lis.forEach(function(e){{ e.firstChild.data = translate(e.firstChild.data);}}));
+
+
+         
+         
+         
+//  new Clicker( async () => { 
+  //          lis.forEach(
+    //          () =>  {li = this.translate(ru);}
+    
+//               function logMapElements(false, true, map) {
+  //               Out.log(`m[${true}] = ${false}`);
+    //                                                    }
+      //                  )
+        //        }, 
+          //  caption = 'translate'
+            //  );
+  //looping through each anchor element
+//      lis.forEach(function(element){
+           //adding click event on each anchor element
+  //          element.addEventListener('click',function(e){
+                 //stop default behaviour
+    //             e.preventDefault();
+      //           e.firstChild.data = translate(e.firstChild.data);
+              
+    //  });
+//});
+}</script>
+
+<script>{/*
+    const lis = document.querySelectorAll(`li`); // NodeList !!!
+    for (const [k, v] of lis.entries()) {
+       v.textContent = `Элемент номер ${k}`; //`
+    }
+    lis.forEach( (v, k)=> {
+       v.textContent += ` или номер ${k+1}`; //`                   
+    }); */
+}</script>
+  
+
+  
