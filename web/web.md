@@ -153,6 +153,12 @@ https://kodaktor.ru/you
 [Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_67143)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_f655b)
 ####  --- серверные  --- kodaktor.ru/sss/t4-2.pdf - сессии (Node.js) 
+[Код on github](https://github.com/Meao/auth-session)
+[init dependencies](/web/initdependencies.png)
+[index js](/web/indexjs.png)
+[index js](/web/wholeindexjs.png)
+[git init](/web/gitinit.png)
+[auth on git](/web/authongit.png)
 ####  moodle.herzen.spb.ru/mod/resource/view.php?id=110833 
 [Код histogram](/web/histogram.php)
 [Работа кода на сайте kodaktor](https://kodaktor.ru/canvas_f5e1c)
