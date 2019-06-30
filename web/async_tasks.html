@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head><script src="/j/out"></script><script src="/socket.io/socket.io.js"></script><!-- <script src="/j/barewebber"></script> -->
+   <title>Массив промисов</title><meta charset="utf-8">
+   <meta name="author" content="Marina Krivtsun">
+   <link rel="stylesheet" href="/css/board2">
+   <link rel="stylesheet" href="/css/highcss_atom">
+ </head>
+ <body><h4 id="author" title="GossJS">Марина Кривцун</h4>
+   <script src="/j/dblttl"></script> <script src="/high.js"></script> <script>hljs.initHighlightingOnLoad();</script>
+   
+   <button>Поехали</button>
+   
+   <ol id="values">
+     <li>10</li>
+     <li>20</li>
+     <li>30</li>
+   </ol>
+   <ol id="urls">
+     <li>https://kodaktor.ru/api/m/</li>
+     <li>https://kodaktor.ru/api/MS2/</li>
+     <li>https://kodaktor.ru/api/MS3/</li>
+   </ol>
+
+   <pre><code>{
+let result = '';
+
+const values = Array.from(
+                document.querySelectorAll("#values li"),
+                e => Number(e.textContent)
+               );
+const URLs = Array.from(
+              document.querySelectorAll("#urls li"),
+              e => e.textContent
+             );
+
+document
+  .querySelector('button')
+  .addEventListener('click',
+  async ({ target: t }) => {
+    for (let i = 0; i < values.length; i++) {
+        let req = await fetch(
+                          `${URLs[i]}${values[i]}/${result}`,
+                          { headers: { 'Content-Type': 'application/json' } }
+                        )
+      .then(res => res.text())
+      .then(res => result = JSON.parse(res).result)
+      .then(res => Out.log(res));
+    }
+    t.textContent = `Результат: ${result}`;
+  }
+); 
+}</code></pre>   
+
+   <script>{Array.from(document.querySelectorAll('pre code'),e=>e.parentNode.appendChild(document.createElement('script')).appendChild(document.createTextNode(e.textContent)));}</script>     
+    
+ </body>
+</html>
+
+
