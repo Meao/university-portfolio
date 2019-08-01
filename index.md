@@ -20,7 +20,7 @@
 ### English
 ![alt tag](https://starecat.com/content/wp-content/uploads/psycho-the-rapist-its-one-word-george-psychotherapist.jpg)
 ### Information technologies in solving optimization problems 
-![alt tag]()
+![alt tag](https://starecat.com/content/wp-content/uploads/math-jokes-be-rational-get-real-if-you-get-them-you-probably-dont-have-any-friends.jpg)
 ### [Technologies of computer modeling](https://github.com/Meao/dietapp)
 ### [Mathematics](https://sites.google.com/site/krivcunmarinait/home/2-курс/2-семестр/компьютерная-алгебра)
 ### OS 
@@ -49,7 +49,7 @@
 ### Information technology in physics, Excel
 ![alt tag](https://starecat.com/content/wp-content/uploads/newton-vs-einstein-nerdy-tshirt-gravity-apples-relativity-shield.jpg)
 ### Information technology in mathematics, Maxima
-![alt tag]()
+![alt tag](https://starecat.com/content/wp-content/uploads/im-good-with-math-mug.jpg)
 ### Mathematics
 ![alt tag](https://starecat.com/content/wp-content/uploads/math-riddle-to-solve-beer-burger-soda-calculate.jpg)
 ### Mathematical Logic
