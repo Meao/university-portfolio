@@ -21,6 +21,7 @@
 [Гиперссылка Sort](https://repl.it/@MarinaKrvtsn/Sort).
 [Гиперссылка Uniq](https://repl.it/@MarinaKrvtsn/Uniq).
 [Гиперссылка Uniq Func](https://repl.it/@MarinaKrvtsn/Uniq-1).
+[Гиперссылка calculate expression](https://repl.it/@MarinaKrvtsn/Cal).
 [Гиперссылка twoSum](https://repl.it/@MarinaKrvtsn/twoSum).
 [Гиперссылка Truth Tables Funcs and Lists](https://repl.it/@MarinaKrvtsn/WryJauntyCoding).
 [Гиперссылка ZipMap](https://repl.it/@MarinaKrvtsn/ZipMap).
