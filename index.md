@@ -1,5 +1,8 @@
 # Marina Krivcon University Portfolio
 ## Year 3
+### Networks 
+[Удостоверение INTUIT.ru №101261088](https://www.intuit.ru/sites/default/files/diploma/E/v/o/l/u/Nekommerch-2-1261088-ORF.jpg)
+[Profile on INTUIT.ru](https://www.intuit.ru/intuituser/userpage/evolution-life1984_2219562)
 ### Information security 
 ![alt tag](https://starecat.com/content/wp-content/uploads/security-check-is-your-card-in-the-hackers-database-easily-check-here-just-enter-your-card-info.jpg)
 ### Mechanics 
