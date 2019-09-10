@@ -1,6 +1,8 @@
 # [Marina Krivcon University Portfolio](https://meao.github.io/university-portfolio/)
 ## Year 3
 ### Programming: Python 5
+Мотивирующая вас изображение или фотография.
+![GitHub Logo](/python/risk.jpg)
 [Гиперссылка facade](https://repl.it/@MarinaKrvtsn/Facade).
 ## Year 2
 ### Programming: Python 3
