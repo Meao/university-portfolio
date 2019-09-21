@@ -1,5 +1,5 @@
-
-Тема 1. Создание облака ключевых слов англоязычного текста по профессиональной
+# [Marina Krivcon University Portfolio](https://meao.github.io/university-portfolio/)
+## Тема 1. Создание облака ключевых слов англоязычного текста по профессиональной
 тематике
 1. Найдите текст на английском языке, посвященный
 разработке программных продуктов.
@@ -14,7 +14,7 @@ https://www.lingvolive.com
 https://www.wordclouds.com/) для анализа этого текста. Выделите top-5 значимых
 слов текста:
 7. Разместите отчёт (лог действий) в репозитории (веб-портфолио).
-https://docs.google.com/document/d/1oePFJbq_rDQ6wZ3F59JbKnNqLU2QyjgjdIrKCbFYgOA/edit?usp=sharing
+[отчёт (лог действий)](https://docs.google.com/document/d/1oePFJbq_rDQ6wZ3F59JbKnNqLU2QyjgjdIrKCbFYgOA/edit?usp=sharing)
 
 Тема 2. Создание сценария изучения онлайн-курса по иностранному языку
 1. Выберите массовый открытый (публично и бесплатно доступный) курс по
