@@ -1,4 +1,32 @@
 # [Marina Krivcon University Portfolio](https://meao.github.io/university-portfolio/)
+
+Задание 1. Юникод
+Ниже находится рисунок с текстом на тибетском языке. Это один слог и одно слово из двух слогов. Последовательно выполните следующие три шага:
+1. Пользуясь, например, вики-справкой, распознайте изображённые буквы.
+2. Наберите эти буквы с помощью Юникода.
+Например,  '\u0f7e' - это представление анусвары (кружочка) в JavaScript. Его код 0f7e
+Или, например, греческая альфа: 03b1. См. гифку ниже рисунка 
+Код	Символ	Название	HTML 16-чный	10-чный
+U+0F00	ༀ	tibetan syllable om	&#xF00;	&#3840;
+https://www.branah.com/unicode-converter
+\u0f68\u0f7c\u0f7e\u0f0d\u0f0d 
+\u0f42\u0f53\u0f66\u0f0b\u0f5a\u0f74\u0f63\u0f0b\u0f0d
+3. Переведите хотя бы второе слово с использованием онлайн-словаря, скорее всего tibetan-english
+ཨོཾ་	OT	[3146] 1) sku rdo rje sogs mtshon don mang po/ ... 2) sngags kyi mgo 'dren byed/ ...
+RY	the seed syllable for the Body of all buddhas
+གནས་ཚུལ་	JH-ENG	[abide-way]; mode of subsistence; way of subsistence; way of being; mode of existence; way of things; state of things; mode of abiding
+OT	[1551] yul dang/ bya ba/ dngos po/ dus tshod sogs kyi babs sam yong stangs dang chags stangs/ ... dngos yod gnas tshul/ ... gnas tshul ngo ma/ ... gnas tshul dmigs bsal can/ ... gnas tshul rgyun ldan/ ... gnas tshul thor bu/ ... gnas tshul hril po/ ...
+JH-ST	mtshan nyid/ rang bzhin/ gnas lugs/ yin lugs/ sdod lugs/ shis lugs/ yin tshul/ yin tshod/ gnas tshod/
+JV, IW, RY	news
+JV	how things are, manner of being, situation, condition, circumstances, existential self, reality, nature, being-in-itself, *, information, happenings, tidings, state of things, affairs, condition of life bodily or spiritually, story, account, history, *, event, situation, mode of being, manner of being, manner of existence, things that had happened, reports
+IW, RB, RY	abiding mode
+IW	1) [actual facts of] conditions/ circumstances/ situation, object; 2) *, information, issue; 3) * [of reality]; 4) subsistence, natural state/ mode; 5) the way it is, how things [really] are
+RY	1) conditions, circumstances, situation. 2) information, *, account / statement of events. 3) * [of reality]. mode of subsistence, natural mode, actual condition, the way it is; mode of being; state. Comp. {snang tshul} the way things are, the mode of abiding. abiding condition, * [thd]. fact, reality http://www.thlib.org/reference/dictionaries/tibetan-dictionary/translate.php
+4. Получившийся результат разместите в виде:
+{"Ответ":"ααα"} 
+{"Ответ":"ཨོཾ།། 
+གནས་ཚུལ་།"} 
+
 ## Тема 1. Создание облака ключевых слов англоязычного текста по профессиональной тематике
 1. Найдите текст на английском языке, посвященный разработке программных продуктов.
 2. Выберите фрагмент текста (не менее 15 предложений).
@@ -16,6 +44,7 @@
 4. Примите участие в процедуре перекрестного оценивания заданий с другими участниками
 5. Задайте вопрос на форуме курса о наилучшей последовательности изучения его материалов и дождитесь появления ответа; сделайте скриншот переписки.
 6. Разместите отчёт (лог действий) в репозитории (веб-портфолио).
+[отчёт (лог действий)](https://docs.google.com/document/d/1a5aTdBYhpP-ZuurGnn-io1bVRqx18g7T5JgULkRaOBk/edit?usp=sharing)
 
 Тема 3. Создание интерактивного HTML-элемента для озвучивания произношения англоязычных слов
 1. Вам необходимо создать кнопку с транскрипцией английского слова, при нажатии на которую вы слышите озвучивание этого слова. Такая технология может быть эффективной для запоминания новых слов, их написания и произношения. Вот простая готовая разметка с встроенными сценарием для работы кнопки: Создайте новый борд в кодакторе и вставьте указанный код.
