@@ -11,6 +11,8 @@
 ![alt tag](https://starecat.com/content/wp-content/uploads/you-get-job-so-you-can-afford-to-have-a-life-then-spend-all-your-time-at-work-and-end-up-with-no-time-to-live-the-life-youre-working-for.jpg)
 ### Proj 
 ![alt tag](https://starecat.com/content/wp-content/uploads/project-manager-person-who-thinks-nine-women-can-deliver-a-baby-in-one-month.jpg)
+1. https://github.com/ctel-prj-mng/3-ivt-17-t1-Meao
+2. https://github.com/ctel-prj-mng/3-ivt-17-t2-Meao
 ### Languages 
 [веб-портфолио](https://github.com/Meao/university-portfolio/blob/master/web/lang/language.md)
 ## Year 2
