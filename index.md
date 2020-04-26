@@ -9,7 +9,7 @@
 ![alt tag](https://starecat.com/content/wp-content/uploads/how-computers-are-made-creative-explaination.jpg)
 ### Internship
 ![alt tag](https://starecat.com/content/wp-content/uploads/you-get-job-so-you-can-afford-to-have-a-life-then-spend-all-your-time-at-work-and-end-up-with-no-time-to-live-the-life-youre-working-for.jpg)
-### Proj 
+### Project management 
 ![alt tag](https://starecat.com/content/wp-content/uploads/project-manager-person-who-thinks-nine-women-can-deliver-a-baby-in-one-month.jpg)
 1. https://github.com/ctel-prj-mng/3-ivt-17-t1-Meao
 2. https://github.com/ctel-prj-mng/3-ivt-17-t2-Meao
@@ -19,7 +19,9 @@
 [веб-портфолио](https://github.com/Meao/university-portfolio/blob/master/web/lang/language.md)
 ## Year 2
 ### [Web-design](https://github.com/Meao/university-portfolio/blob/master/web/web.md)
+![alt tag](https://starecat.com/content/wp-content/uploads/me-makes-small-change-to-the-css-my-websites-looks-ridiculous.jpg)
 ### [Programming, Python](https://github.com/Meao/university-portfolio/blob/master/python/python.md)
+![alt tag](https://starecat.com/content/wp-content/uploads/adding-mentos-to-coca-cola-coke-perfectly-working-piece-of-code-one-small-feature.jpg)
 ### Computational Mathematics 
 ![alt tag](https://starecat.com/content/wp-content/uploads/these-companies-test-on-animals-oracle-dog-programming-database.jpg)
 ### Data analysis
