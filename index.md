@@ -18,7 +18,6 @@
 ### Electrical engineering, electronics and circuitry 
 ![alt tag](https://starecat.com/content/wp-content/uploads/apply-kirchoffs-law-cable-mess.jpg)
 ### IT management
-![alt tag]()
 ### Information Technologies in Economics and Management
 ![alt tag](https://starecat.com/content/wp-content/uploads/jordan-peterson-economic-collapse-could-be-worse-than-the-virus-so-youre-saying-you-want-all-old-people-to-die.jpg)
 ### Publishing Systems and Technologies
@@ -28,7 +27,6 @@
 ### Ecology
 ![alt tag](https://starecat.com/content/wp-content/uploads/battery-use-details-du-battery-saver-used-most-of-the-battery-fail.jpg)
 ### Information Technology and Business Intelligence Systems, Archimate
-![alt tag]()
 ### Corporate E-Learning Basics
 ![alt tag](https://starecat.com/content/wp-content/uploads/friends-joey-learning-french.jpg)
 ### Applied Information Technology, Docker
@@ -37,8 +35,7 @@
 ![alt tag](https://starecat.com/content/wp-content/uploads/electron-spin-explained-imagine-a-ball-thats-rotating-except-its-not-a-ball-and-its-not-rotating.jpg)
 ### Engineering and computer graphics, Autocad, Unity
 ![alt tag](https://starecat.com/content/wp-content/uploads/making-memes-in-photoshop-vs-making-memes-in-ms-paint-vs-making-memes-in-autocad-brain-meme.jpg)
-### Programming, Python
-![alt tag]()
+### [Programming, Python](https://github.com/Meao/university-portfolio/blob/master/python/python.md)
 ### Jurisprudence
 ![alt tag](https://starecat.com/content/wp-content/uploads/this-meme-is-not-available-in-your-country-eu-copyright-law.jpg)
 ### sport
