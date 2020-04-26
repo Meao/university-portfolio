@@ -1,22 +1,50 @@
 # Marina Krivcon University Portfolio
 ## Year 3
-### Networks 
-[Удостоверение INTUIT.ru №101261088](https://www.intuit.ru/sites/default/files/diploma/E/v/o/l/u/Nekommerch-2-1261088-ORF.jpg)
-[Profile on INTUIT.ru](https://www.intuit.ru/intuituser/userpage/evolution-life1984_2219562)
-### Information security 
-![alt tag](https://starecat.com/content/wp-content/uploads/security-check-is-your-card-in-the-hackers-database-easily-check-here-just-enter-your-card-info.jpg)
-### Mechanics 
-![alt tag](https://starecat.com/content/wp-content/uploads/how-computers-are-made-creative-explaination.jpg)
-### [Internship](https://github.com/Meao/unity-predator-victim)
+### [Internship, Unity](https://github.com/Meao/unity-predator-victim)
 ![alt tag](https://starecat.com/content/wp-content/uploads/you-get-job-so-you-can-afford-to-have-a-life-then-spend-all-your-time-at-work-and-end-up-with-no-time-to-live-the-life-youre-working-for.jpg)
-### Project management 
+### Software project management 
 ![alt tag](https://starecat.com/content/wp-content/uploads/project-manager-person-who-thinks-nine-women-can-deliver-a-baby-in-one-month.jpg)
 1. https://github.com/ctel-prj-mng/3-ivt-17-t1-Meao
 2. https://github.com/ctel-prj-mng/3-ivt-17-t2-Meao
 3. https://github.com/ctel-prj-mng/3-ivt-17-t3-Meao
 4. https://github.com/ctel-prj-mng/3-ivt-17-t4-Meao
-### Languages 
+### Information technology in the study of foreign languages 
 [веб-портфолио](https://github.com/Meao/university-portfolio/blob/master/web/lang/language.md)
+### Networks and telecommunications 
+[Удостоверение INTUIT.ru №101261088](https://www.intuit.ru/sites/default/files/diploma/E/v/o/l/u/Nekommerch-2-1261088-ORF.jpg)
+[Profile on INTUIT.ru](https://www.intuit.ru/intuituser/userpage/evolution-life1984_2219562)
+### Data protection, Information security 
+![alt tag](https://starecat.com/content/wp-content/uploads/security-check-is-your-card-in-the-hackers-database-easily-check-here-just-enter-your-card-info.jpg)
+### Electrical engineering, electronics and circuitry 
+![alt tag](https://starecat.com/content/wp-content/uploads/apply-kirchoffs-law-cable-mess.jpg)
+### IT management
+![alt tag]()
+### Information Technologies in Economics and Management
+![alt tag](https://starecat.com/content/wp-content/uploads/jordan-peterson-economic-collapse-could-be-worse-than-the-virus-so-youre-saying-you-want-all-old-people-to-die.jpg)
+### Publishing Systems and Technologies
+![alt tag](https://starecat.com/content/wp-content/uploads/how-computers-are-made-creative-explaination.jpg)
+### Technique and technology for the presentation and publication of information, LaTeX
+![alt tag](https://starecat.com/content/wp-content/uploads/bus-doors-as-shark-creative-national-geographic-ad.jpg)
+### Ecology
+![alt tag](https://starecat.com/content/wp-content/uploads/battery-use-details-du-battery-saver-used-most-of-the-battery-fail.jpg)
+### Information Technology and Business Intelligence Systems, Archimate
+![alt tag]()
+### Corporate E-Learning Basics
+![alt tag](https://starecat.com/content/wp-content/uploads/friends-joey-learning-french.jpg)
+### Applied Information Technology, Docker
+![alt tag](https://starecat.com/content/wp-content/uploads/she-broke-huge-metal-cargo-container-by-hitting-it-with-her-head-creative-photo.jpg)
+### Introduction to Nanotechnology
+![alt tag](https://starecat.com/content/wp-content/uploads/electron-spin-explained-imagine-a-ball-thats-rotating-except-its-not-a-ball-and-its-not-rotating.jpg)
+### Engineering and computer graphics, Autocad, Unity
+![alt tag](https://starecat.com/content/wp-content/uploads/making-memes-in-photoshop-vs-making-memes-in-ms-paint-vs-making-memes-in-autocad-brain-meme.jpg)
+### Programming, Python
+![alt tag]()
+### Jurisprudence
+![alt tag](https://starecat.com/content/wp-content/uploads/this-meme-is-not-available-in-your-country-eu-copyright-law.jpg)
+### sport
+![alt tag](https://starecat.com/content/wp-content/uploads/murphys-laws.jpg)
+
+
 ## Year 2
 ### [Web-design](https://github.com/Meao/university-portfolio/blob/master/web/web.md)
 ![alt tag](https://starecat.com/content/wp-content/uploads/me-makes-small-change-to-the-css-my-websites-looks-ridiculous.jpg)
