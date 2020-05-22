@@ -34,8 +34,8 @@
 [Гиперссылка Lists](https://repl.it/@MarinaKrvtsn/UtterJampackedBudgetrange).
 [Гиперссылка Log and Arctan](https://repl.it/@MarinaKrvtsn/elementfunc).
 [Гиперссылка СР](https://docs.google.com/document/d/1uN99-dkoouNH5RjM2dwxptCN8o7LA50gA8HgjW_ecP4/edit?usp=sharing).
-####   
-
+####   Тема 5. Тестирование
+[Гиперссылка JSONfile](https://repl.it/@MarinaKrvtsn/JSONfile).
 ### Programming: Python 4
 ####   Тема 2. Декораторы
 [Гиперссылка timeDeco](https://repl.it/@MarinaKrvtsn/timeDeco).
