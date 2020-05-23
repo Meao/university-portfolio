@@ -41,6 +41,8 @@
 [Гиперссылка Quadratic roots rounded](https://repl.it/@MarinaKrvtsn/discrimi).
 [Гиперссылка TestsComparison](https://docs.google.com/document/d/1qALouwSnaLLGqZeXqZB1L4xmtz5rGpxol2pjrBtjZaA/edit?usp=sharing).
 ### Programming: Python 4
+####   Тема 1. Обработка исключений
+[Гиперссылка sqlite3](https://repl.it/@MarinaKrvtsn/sem4-t1-lr3).
 ####   Тема 2. Декораторы
 [Гиперссылка timeDeco](https://repl.it/@MarinaKrvtsn/timeDeco).
 
