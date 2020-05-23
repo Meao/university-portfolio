@@ -22,6 +22,7 @@
 Лабораторная работа 3 [Гиперссылка Truth Table](https://repl.it/@MarinaKrvtsn/TruthTable16).
 ####   Тема 3. Введение в Python и основы синтаксиса. Условные операторы. Циклы. 
 Лабораторная работа 4 [Гиперссылка Truth Tables and Lists](https://repl.it/@MarinaKrvtsn/Template-for-assignment-1-1).
+[Гиперссылка ROT13](https://repl.it/@MarinaKrvtsn/ROT13).
 ####   Тема 4. Функции в Python
 репозиторий в Classroom [Гиперссылка Truth Tables and Lists](https://github.com/python-basic/sem3-t2-Meao/tree/master).
 [Гиперссылка Sort](https://repl.it/@MarinaKrvtsn/Sort).
