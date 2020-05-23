@@ -36,6 +36,8 @@
 [Гиперссылка СР](https://docs.google.com/document/d/1uN99-dkoouNH5RjM2dwxptCN8o7LA50gA8HgjW_ecP4/edit?usp=sharing).
 ####   Тема 5. Тестирование
 [Гиперссылка JSONfile](https://repl.it/@MarinaKrvtsn/JSONfile).
+[Гиперссылка репозиторий в Classroom](https://github.com/python-basic/sem3-t4-Meao/blob/master/eqsolve.py).
+[Гиперссылка Quadratic roots rounded](https://repl.it/@MarinaKrvtsn/discrimi).
 ### Programming: Python 4
 ####   Тема 2. Декораторы
 [Гиперссылка timeDeco](https://repl.it/@MarinaKrvtsn/timeDeco).
