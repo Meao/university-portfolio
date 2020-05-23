@@ -1,12 +1,13 @@
 # [Marina Krivcon University Portfolio](https://meao.github.io/university-portfolio/)
 ## Year 3
-### Programming: Python 5
+### Programming: Python semester 5
 Мотивирующая вас изображение или фотография.
 ![GitHub Logo](/python/risk.jpg)
 [Гиперссылка facade](https://repl.it/@MarinaKrvtsn/Facade).
 [Гиперссылка importURL](https://repl.it/@MarinaKrvtsn/importURL).
+### Programming: Python semester 6
 ## Year 2
-### Programming: Python 3
+### Programming: Python semester 3
 ####  sem3-markdown-git-130918
 1. Заголовок 2 уровня: Year 2.
 2. Маркированный список с 2-3 профессиональными компетенциями в айти-сфере:
@@ -40,7 +41,7 @@
 [Гиперссылка репозиторий в Classroom](https://github.com/python-basic/sem3-t4-Meao/blob/master/eqsolve.py).
 [Гиперссылка Quadratic roots rounded](https://repl.it/@MarinaKrvtsn/discrimi).
 [Гиперссылка TestsComparison](https://docs.google.com/document/d/1qALouwSnaLLGqZeXqZB1L4xmtz5rGpxol2pjrBtjZaA/edit?usp=sharing).
-### Programming: Python 4
+### Programming: Python semester 4
 ####   Тема 1. Обработка исключений
 [Гиперссылка sqlite3](https://repl.it/@MarinaKrvtsn/sem4-t1-lr3).
 ####   Тема 2. Декораторы
