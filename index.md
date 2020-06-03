@@ -26,14 +26,14 @@
 ![alt tag](https://starecat.com/content/wp-content/uploads/bus-doors-as-shark-creative-national-geographic-ad.jpg)
 ### Ecology
 ![alt tag](https://starecat.com/content/wp-content/uploads/battery-use-details-du-battery-saver-used-most-of-the-battery-fail.jpg)
-### Information Technology and Business Intelligence Systems, Archimate
+### Information Technology and Business Intelligence Systems, Archimate, UML
 ### Corporate E-Learning Basics
 ![alt tag](https://starecat.com/content/wp-content/uploads/friends-joey-learning-french.jpg)
-### Applied Information Technology, Docker
+### Applied Information Technology, Docker, OAuth
 ![alt tag](https://starecat.com/content/wp-content/uploads/she-broke-huge-metal-cargo-container-by-hitting-it-with-her-head-creative-photo.jpg)
 ### Introduction to Nanotechnology
 ![alt tag](https://starecat.com/content/wp-content/uploads/electron-spin-explained-imagine-a-ball-thats-rotating-except-its-not-a-ball-and-its-not-rotating.jpg)
-### Engineering and computer graphics, Autocad, Unity
+### [Engineering and computer graphics, Autocad, Unity](https://github.com/Meao/university-portfolio/tree/master/graph)
 ![alt tag](https://starecat.com/content/wp-content/uploads/making-memes-in-photoshop-vs-making-memes-in-ms-paint-vs-making-memes-in-autocad-brain-meme.jpg)
 ### [Programming, Python](https://github.com/Meao/university-portfolio/blob/master/python/python.md)
 ### Jurisprudence
