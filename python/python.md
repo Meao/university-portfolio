@@ -44,6 +44,7 @@
 ### Programming: Python semester 4
 ####   Тема 1. Обработка исключений
 [Гиперссылка sqlite3](https://repl.it/@MarinaKrvtsn/sem4-t1-lr3).
+[Гиперссылка JSONrecord](https://repl.it/@MarinaKrvtsn/JSONfile-1#main.py).
 ####   Тема 2. Декораторы
 [Гиперссылка timeDeco](https://repl.it/@MarinaKrvtsn/timeDeco).
 
