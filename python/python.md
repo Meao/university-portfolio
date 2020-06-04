@@ -47,7 +47,8 @@
 [Гиперссылка JSONrecord](https://repl.it/@MarinaKrvtsn/JSONfile-1#main.py).
 ####   Тема 2. Декораторы
 [Гиперссылка timeDeco](https://repl.it/@MarinaKrvtsn/timeDeco).
-[Гиперссылка CalculatorRecord](https://repl.it/@MarinaKrvtsn/Cal#main.py).
+[Гиперссылка CalculatorRecordResult](https://repl.it/@MarinaKrvtsn/Cal#main.py).
+[Гиперссылка CalculatorRecordOperandsNResult](https://repl.it/@MarinaKrvtsn/Calcul#main.py).
 
 ```markdown
 Syntax highlighted code block
