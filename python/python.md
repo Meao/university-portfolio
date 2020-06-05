@@ -53,6 +53,10 @@
 [Гиперссылка Login](https://repl.it/@MarinaKrvtsn/sem4-t2-lr5).
 [Гиперссылка Login as decorator](https://repl.it/@MarinaKrvtsn/sem4-t2-lr5-1).
 ####   Тема 3. Введение в ООП
+[Гиперссылка Blog](https://repl.it/@MarinaKrvtsn/Blog).
+[Гиперссылка Blog getter n setter](https://repl.it/@MarinaKrvtsn/Blog-1).
+[Гиперссылка MVC in Django (Diet optimisation app)](https://github.com/Meao/dietapp).
+
 
 ```markdown
 Syntax highlighted code block
