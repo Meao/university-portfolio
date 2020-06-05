@@ -50,6 +50,7 @@
 [Гиперссылка CalculatorRecordResult](https://repl.it/@MarinaKrvtsn/Cal#main.py).
 [Гиперссылка CalculatorRecordOperandsNResult](https://repl.it/@MarinaKrvtsn/Calcul#main.py).
 [Гиперссылка Once](https://repl.it/@MarinaKrvtsn/ROT13Once#main.py).
+[Гиперссылка Login](https://repl.it/@MarinaKrvtsn/sem4-t2-lr5).
 
 ```markdown
 Syntax highlighted code block
