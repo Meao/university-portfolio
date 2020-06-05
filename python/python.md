@@ -51,6 +51,7 @@
 [Гиперссылка CalculatorRecordOperandsNResult](https://repl.it/@MarinaKrvtsn/Calcul#main.py).
 [Гиперссылка Once](https://repl.it/@MarinaKrvtsn/ROT13Once#main.py).
 [Гиперссылка Login](https://repl.it/@MarinaKrvtsn/sem4-t2-lr5).
+[Гиперссылка Login as decorator](https://repl.it/@MarinaKrvtsn/sem4-t2-lr5-1).
 ####   Тема 3. Введение в ООП
 
 ```markdown
