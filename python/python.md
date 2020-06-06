@@ -67,6 +67,7 @@
 ####   Тема 4. Встроенные коллекции
 [Гиперссылка Random Sorted](https://repl.it/@MarinaKrvtsn/Random).
 [Гиперссылка FilterFunc](https://repl.it/@MarinaKrvtsn/FilterFunc).
+[Гиперссылка split Dict](https://repl.it/@MarinaKrvtsn/splitDict#main.py).
 
 ```markdown
 Syntax highlighted code block
