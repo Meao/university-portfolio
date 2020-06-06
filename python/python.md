@@ -66,8 +66,9 @@
 [Гиперссылка InstagramBioReader](https://github.com/Meao/university-portfolio/blob/master/python/InstagramBioReader.py).
 ####   Тема 4. Встроенные коллекции
 [Гиперссылка Random Sorted](https://repl.it/@MarinaKrvtsn/Random).
-[Гиперссылка FilterFunc](https://repl.it/@MarinaKrvtsn/FilterFunc).
 [Гиперссылка split Dict](https://repl.it/@MarinaKrvtsn/splitDict#main.py).
+[Гиперссылка requests](https://repl.it/@MarinaKrvtsn/requests#main.py).
+[Гиперссылка FilterFunc](https://repl.it/@MarinaKrvtsn/FilterFunc).
 
 ```markdown
 Syntax highlighted code block
