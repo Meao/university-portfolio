@@ -3,8 +3,12 @@
 ### Programming: Python semester 5
 Мотивирующая вас изображение или фотография.
 ![GitHub Logo](/python/risk.jpg)
+####   Тема 1. Модули. Пакеты
 [Гиперссылка facade](https://repl.it/@MarinaKrvtsn/Facade).
 [Гиперссылка importURL](https://repl.it/@MarinaKrvtsn/importURL).
+####   Тема 2. Итераторы
+####   Тема 3. Введение в ООА, шаблоны проектирования
+####   Тема 4. Построение графиков на Python
 ### Programming: Python semester 6
 ## Year 2
 ### Programming: Python semester 3
