@@ -60,7 +60,8 @@
 [Гиперссылка Deprecated](https://repl.it/@MarinaKrvtsn/deprecated).
 [Гиперссылка MVC in Django (Diet optimisation app)](https://github.com/Meao/dietapp).
 [Гиперссылка InstagramBioReader](https://github.com/Meao/university-portfolio/blob/master/python/InstagramBioReader.py).
-
+####   Тема 4. Встроенные коллекции
+[Гиперссылка Random](https://repl.it/@MarinaKrvtsn/Random).
 
 ```markdown
 Syntax highlighted code block
