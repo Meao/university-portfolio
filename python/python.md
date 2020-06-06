@@ -16,8 +16,6 @@
 4. Мотивирующая вас изображение или фотография.
 ![GitHub Logo](/python/1.png)
 ### [Programming: Python semester 4](https://github.com/Meao/py/blob/master/README.md#programming-python-semester-4)
-####   Тема 3. Введение в ООП
-[Гиперссылка InstagramBioReader](https://github.com/Meao/university-portfolio/blob/master/python/InstagramBioReader.py).
 
 ```markdown
 Syntax highlighted code block
