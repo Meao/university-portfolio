@@ -57,6 +57,7 @@
 [Гиперссылка Blog getter n setter](https://repl.it/@MarinaKrvtsn/Blog-1).
 [Гиперссылка Reg Form str print](https://repl.it/@MarinaKrvtsn/sem4-t3-attrs).
 [Гиперссылка MVC in Django (Diet optimisation app)](https://github.com/Meao/dietapp).
+[Гиперссылка InstagramBioReader](https://github.com/Meao/university-portfolio/blob/master/python/InstagramBioReader.py).
 
 
 ```markdown
