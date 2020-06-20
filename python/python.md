@@ -3,6 +3,7 @@
 ### [Programming: Python semester 5](https://github.com/Meao/py/blob/master/README.md#programming-python-semester-5)
 Мотивирующая вас изображение или фотография.
 ![GitHub Logo](/python/risk.jpg)
+[Classroom 1](https://github.com/python-advance/sem5-t1-Meao/blob/master/README.md)
 ### [Programming: Python semester 6](https://github.com/Meao/py/blob/master/README.md#programming-python-semester-6)
 ## Year 2
 ### [Programming: Python semester 3](https://github.com/Meao/py/blob/master/README.md#programming-python-semester-3)
