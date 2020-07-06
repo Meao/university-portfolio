@@ -11,14 +11,19 @@
 2. https://github.com/ctel-prj-mng/3-ivt-17-t2-Meao
 3. https://github.com/ctel-prj-mng/3-ivt-17-t3-Meao
 4. https://github.com/ctel-prj-mng/3-ivt-17-t4-Meao
+
 ### [Information technology in the study of foreign languages](https://github.com/Meao/university-portfolio/blob/master/web/lang/language.md)
 ![picture](https://starecat.com/content/wp-content/uploads/swedish-grammar-vs-dutch-grammar-vs-german-grammar-vs-icelandic-grammar-vs-polish-grammar-monsters-comparison.jpg)
 ### Networks and telecommunications 
 ![picture](https://starecat.com/content/wp-content/uploads/daddy-what-are-clouds-made-of-linux-servers-mostly.jpg)
+
 [Удостоверение INTUIT.ru №101261088](https://www.intuit.ru/sites/default/files/diploma/E/v/o/l/u/Nekommerch-2-1261088-ORF.jpg)
+
 [Profile on INTUIT.ru](https://www.intuit.ru/intuituser/userpage/evolution-life1984_2219562)
 ### [Engineering and computer graphics, Autocad, Unity](https://github.com/Meao/university-portfolio/tree/master/graph)
 ![alt tag](https://starecat.com/content/wp-content/uploads/making-memes-in-photoshop-vs-making-memes-in-ms-paint-vs-making-memes-in-autocad-brain-meme.jpg)
+### [Applied Information Technology, Docker, OAuth](https://github.com/Meao/AppliedIT)
+![picture](https://starecat.com/content/wp-content/uploads/she-broke-huge-metal-cargo-container-by-hitting-it-with-her-head-creative-photo.jpg)
 ### Data protection, Information security 
 ![picture](https://starecat.com/content/wp-content/uploads/security-check-is-your-card-in-the-hackers-database-easily-check-here-just-enter-your-card-info.jpg)
 ### Electrical engineering, electronics and circuitry 
@@ -35,8 +40,6 @@
 ### Information Technology and Business Intelligence Systems, Archimate, UML
 ### Corporate E-Learning Basics
 ![picture](https://starecat.com/content/wp-content/uploads/friends-joey-learning-french.jpg)
-### Applied Information Technology, Docker, OAuth
-![picture](https://starecat.com/content/wp-content/uploads/she-broke-huge-metal-cargo-container-by-hitting-it-with-her-head-creative-photo.jpg)
 ### Introduction to Nanotechnology
 ![alt tag](https://starecat.com/content/wp-content/uploads/electron-spin-explained-imagine-a-ball-thats-rotating-except-its-not-a-ball-and-its-not-rotating.jpg)
 ### Jurisprudence
