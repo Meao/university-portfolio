@@ -13,7 +13,7 @@
 3. https://colab.research.google.com/drive/1qPDftf3dmE35BIGJROqK-fc1HvtV_-7L?usp=sharing
 ### Theory of information processes and systems
 ![picture](https://starecat.com/content/wp-content/uploads/it-russian-roulette-programming-code.jpg)
-Engineering and scientific calculations, Scilab
+### Engineering and scientific calculations, Scilab
 ### Data visualization and infographics, Canva, Excel, Piktochart
 ![picture](https://starecat.com/content/wp-content/uploads/human-bone-names-creative-infographic-drawing.jpg)
 ### Geographic information systems, QGIS
