@@ -1,5 +1,36 @@
 # Marina Krivcon University Portfolio
 ## Year 4
+### [Diploma, Python, Django, Chatterbot, Bulma, Time management](https://github.com/Meao/TimeEstim)
+### [Programming, Python, Flask](https://github.com/Meao/university-portfolio/blob/master/python/python.md)
+![picture](https://starecat.com/content/wp-content/uploads/multithreaded-programming-theory-actual-puppies-eating-from-bowls-mess.jpg)
+### [IT recruitment](https://spb.hh.ru/resume/86e9a497ff0458e7a60039ed1f6e793676446f)
+![picture](https://starecat.com/content/wp-content/uploads/were-looking-for-someone-age-22-26-with-30-years-of-experience-job-interview.jpg)
+### Programming Workshops, Julia, Python, Pandas, Numpy, Jupyter notebook
+### Knowledge engineering, Google Colab, Python, Pandas, Numpy, Sklearn linear_model, LabelEncoder
+![picture](https://starecat.com/content/wp-content/uploads/i-want-to-buy-a-fog-machine-and-put-it-in-a-data-center-so-when-i-open-the-door-fog-spills-out-i-can-say-welcome-to-the-cloud.jpg)
+1. https://colab.research.google.com/drive/1pr-ap91M99817yFOwiX6_bwMlU8sN5zv?usp=sharing
+2. https://colab.research.google.com/drive/1TpbEcr1SNI_2i-q9w7-yNr6Snu365DSp?usp=sharing
+3. https://colab.research.google.com/drive/1qPDftf3dmE35BIGJROqK-fc1HvtV_-7L?usp=sharing
+### Theory of information processes and systems
+![picture](https://starecat.com/content/wp-content/uploads/it-russian-roulette-programming-code.jpg)
+Engineering and scientific calculations, Scilab
+### Data visualization and infographics, Canva, Excel, Piktochart
+![picture](https://starecat.com/content/wp-content/uploads/human-bone-names-creative-infographic-drawing.jpg)
+### Geographic information systems, QGIS
+![picture](https://starecat.com/content/wp-content/uploads/map-of-the-world-if-youre-a-fish.jpg)
+### Microelectronics
+![picture](https://starecat.com/content/wp-content/uploads/id-love-to-go-back-in-time-and-blow-peoples-minds-with-my-incredible-knowledge-but-how-do-you-make-this-electricity-i-dont-know.jpg)
+### Electronic education, LMS Wordpress
+![picture](https://starecat.com/content/wp-content/uploads/its-nice-that-voldemort-waits-until-the-end-of-school-year-to-try-kill-harry-potter-he-really-cares-about-his-education.jpg)
+### IT personnel assessment  
+![picture](https://starecat.com/content/wp-content/uploads/google-captcha-select-all-squares-with-bugs-in-the-code-if-there-are-none-click-skip-programming.jpg)
+### Information resources and digital libraries  
+![picture](https://starecat.com/content/wp-content/uploads/library-because-not-everything-on-the-internet-is-true.jpg)
+### IT ethics  
+![picture](https://starecat.com/content/wp-content/uploads/all-this-technology-is-making-us-antisocial.jpg)
+### Professional communication, English
+![picture](https://starecat.com/content/wp-content/uploads/my-linkedin-profile-i-typically-ask-recruiters-to-point-out-which-of-these-are-pokemon-programming-languages-frameworks.jpg)
+
 ## Year 3
 ### [Internship, Unity](https://github.com/Meao/unity-predator-victim)
 ![picture](https://starecat.com/content/wp-content/uploads/you-get-job-so-you-can-afford-to-have-a-life-then-spend-all-your-time-at-work-and-end-up-with-no-time-to-live-the-life-youre-working-for.jpg)
