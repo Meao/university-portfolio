@@ -11,6 +11,7 @@
 1. https://colab.research.google.com/drive/1pr-ap91M99817yFOwiX6_bwMlU8sN5zv?usp=sharing
 2. https://colab.research.google.com/drive/1TpbEcr1SNI_2i-q9w7-yNr6Snu365DSp?usp=sharing
 3. https://colab.research.google.com/drive/1qPDftf3dmE35BIGJROqK-fc1HvtV_-7L?usp=sharing
+
 ### Theory of information processes and systems
 ![picture](https://starecat.com/content/wp-content/uploads/it-russian-roulette-programming-code.jpg)
 ### Engineering and scientific calculations, Scilab
