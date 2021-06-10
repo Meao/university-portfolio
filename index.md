@@ -39,10 +39,10 @@
 ![picture](https://starecat.com/content/wp-content/uploads/code-written-by-cs-101-student-at-hackaton-at-a-startup-at-a-large-company-by-a-math-ph-d-by-your-cat-comparison.jpg)
 ### Software project management 
 ![picture](https://starecat.com/content/wp-content/uploads/project-manager-person-who-thinks-nine-women-can-deliver-a-baby-in-one-month.jpg)
-1. https://github.com/ctel-prj-mng/3-ivt-17-t1-Meao
-2. https://github.com/ctel-prj-mng/3-ivt-17-t2-Meao
-3. https://github.com/ctel-prj-mng/3-ivt-17-t3-Meao
-4. https://github.com/ctel-prj-mng/3-ivt-17-t4-Meao
+1. [Gantt, prototype](https://github.com/ctel-prj-mng/3-ivt-17-t1-Meao)
+2. [Sketch](https://github.com/ctel-prj-mng/3-ivt-17-t2-Meao)
+3. [UML use case, unit test](https://github.com/ctel-prj-mng/3-ivt-17-t3-Meao)
+4. [FDD, git](https://github.com/ctel-prj-mng/3-ivt-17-t4-Meao)
 
 ### [Information technology in the study of foreign languages](https://github.com/Meao/university-portfolio/blob/master/web/lang/language.md)
 ![picture](https://starecat.com/content/wp-content/uploads/swedish-grammar-vs-dutch-grammar-vs-german-grammar-vs-icelandic-grammar-vs-polish-grammar-monsters-comparison.jpg)
