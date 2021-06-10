@@ -8,9 +8,9 @@
 ### Programming Workshops, Julia, Python, Pandas, Numpy, Jupyter notebook
 ### Knowledge engineering, Google Colab, Python, Pandas, Numpy, Sklearn linear_model, LabelEncoder
 ![picture](https://starecat.com/content/wp-content/uploads/i-want-to-buy-a-fog-machine-and-put-it-in-a-data-center-so-when-i-open-the-door-fog-spills-out-i-can-say-welcome-to-the-cloud.jpg)
-1. https://colab.research.google.com/drive/1pr-ap91M99817yFOwiX6_bwMlU8sN5zv?usp=sharing
-2. https://colab.research.google.com/drive/1TpbEcr1SNI_2i-q9w7-yNr6Snu365DSp?usp=sharing
-3. https://colab.research.google.com/drive/1qPDftf3dmE35BIGJROqK-fc1HvtV_-7L?usp=sharing
+1. [Kaggle "Give me some credit"](https://colab.research.google.com/drive/1pr-ap91M99817yFOwiX6_bwMlU8sN5zv?usp=sharing)
+2. [Kaggle "employee attrition"](https://colab.research.google.com/drive/1TpbEcr1SNI_2i-q9w7-yNr6Snu365DSp?usp=sharing)
+3. [recommender_system](https://colab.research.google.com/drive/1qPDftf3dmE35BIGJROqK-fc1HvtV_-7L?usp=sharing)
 
 ### Theory of information processes and systems
 ![picture](https://starecat.com/content/wp-content/uploads/it-russian-roulette-programming-code.jpg)
