@@ -5,12 +5,13 @@
 ![picture](https://starecat.com/content/wp-content/uploads/multithreaded-programming-theory-actual-puppies-eating-from-bowls-mess.jpg)
 ### [IT recruitment](https://spb.hh.ru/resume/86e9a497ff0458e7a60039ed1f6e793676446f)
 ![picture](https://starecat.com/content/wp-content/uploads/were-looking-for-someone-age-22-26-with-30-years-of-experience-job-interview.jpg)
-### Programming Workshops, Julia, Python, Pandas, Numpy, Jupyter notebook
 ### Knowledge engineering, Google Colab, Python, Pandas, Numpy, Sklearn linear_model, LabelEncoder
 ![picture](https://starecat.com/content/wp-content/uploads/i-want-to-buy-a-fog-machine-and-put-it-in-a-data-center-so-when-i-open-the-door-fog-spills-out-i-can-say-welcome-to-the-cloud.jpg)
 1. [Kaggle "Give me some credit"](https://colab.research.google.com/drive/1pr-ap91M99817yFOwiX6_bwMlU8sN5zv?usp=sharing)
 2. [Kaggle "employee attrition"](https://colab.research.google.com/drive/1TpbEcr1SNI_2i-q9w7-yNr6Snu365DSp?usp=sharing)
 3. [recommender_system](https://colab.research.google.com/drive/1qPDftf3dmE35BIGJROqK-fc1HvtV_-7L?usp=sharing)
+
+### Programming Workshops, Julia, Python, Pandas, Numpy, Jupyter notebook
 
 ### Theory of information processes and systems
 ![picture](https://starecat.com/content/wp-content/uploads/it-russian-roulette-programming-code.jpg)
@@ -49,7 +50,7 @@
 ### Networks and telecommunications 
 ![picture](https://starecat.com/content/wp-content/uploads/daddy-what-are-clouds-made-of-linux-servers-mostly.jpg)
 
-[Удостоверение INTUIT.ru №101261088](https://www.intuit.ru/sites/default/files/diploma/E/v/o/l/u/Nekommerch-2-1261088-ORF.jpg)
+[Certificate INTUIT.ru №101261088](https://www.intuit.ru/sites/default/files/diploma/E/v/o/l/u/Nekommerch-2-1261088-ORF.jpg)
 
 [Profile on INTUIT.ru](https://www.intuit.ru/intuituser/userpage/evolution-life1984_2219562)
 ### [Engineering and computer graphics, Autocad, Unity](https://github.com/Meao/university-portfolio/tree/master/graph)
